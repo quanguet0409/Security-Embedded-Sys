@@ -1,0 +1,56 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'dut'" level="0">
+<item name = "Date">Thu Dec 19 08:56:02 2024
+</item>
+<item name = "Version">2021.2 (Build 3367213 on Tue Oct 19 02:48:09 MDT 2021)</item>
+<item name = "Project">rsa.prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">8.50 ns, 7.147 ns, 2.30 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">207, 66757594, 1.760 us, 0.567 sec, 208, 66757595, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_dut_Pipeline_READ_LOOP_fu_5385">dut_Pipeline_READ_LOOP, 35, 35, 0.297 us, 0.297 us, 35, 35, no</column>
+<column name="grp_dut_Pipeline_READ_LOOP3_fu_5392">dut_Pipeline_READ_LOOP3, 35, 35, 0.297 us, 0.297 us, 35, 35, no</column>
+<column name="grp_dut_Pipeline_READ_LOOP4_fu_5399">dut_Pipeline_READ_LOOP4, 35, 35, 0.297 us, 0.297 us, 35, 35, no</column>
+<column name="grp_dut_Pipeline_VITIS_LOOP_14_1_fu_5406">dut_Pipeline_VITIS_LOOP_14_1, 6, 68, 51.000 ns, 0.578 us, 6, 68, no</column>
+<column name="grp_divide_fu_5412">divide, 53, 28313, 0.451 us, 0.241 ms, 53, 28313, no</column>
+<column name="grp_operator_lt_fu_5420">operator_lt, 6, 163, 51.000 ns, 1.385 us, 6, 163, no</column>
+<column name="grp_operator_mul_fu_5426">operator_mul, 4119, 4119, 35.011 us, 35.011 us, 4119, 4119, no</column>
+<column name="grp_dut_Pipeline_SHIFT_fu_5433">dut_Pipeline_SHIFT, 7, 52, 59.500 ns, 0.442 us, 7, 52, no</column>
+<column name="grp_operator_1_fu_5440">operator_1, 4119, 4119, 35.011 us, 35.011 us, 4119, 4119, no</column>
+<column name="grp_dut_Pipeline_WRITE_LOOP_fu_5446">dut_Pipeline_WRITE_LOOP, 35, 35, 0.297 us, 0.297 us, 35, 35, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- POWM_LOOP">9216, 66728960, 9 ~ 65165, -, -, 1024, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

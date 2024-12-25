@@ -1,0 +1,147 @@
+
+
+================================================================
+== Vitis HLS Report for 'divide_Pipeline_CLEAR_UPPER'
+================================================================
+* Date:           Thu Dec 19 08:55:48 2024
+
+* Version:        2021.2 (Build 3367213 on Tue Oct 19 02:48:09 MDT 2021)
+* Project:        rsa.prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  8.50 ns|  5.671 ns|     2.30 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       18|       18|  0.153 us|  0.153 us|   18|   18|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+        |               |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |   Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- CLEAR_UPPER  |       16|       16|         1|          1|          1|    16|       yes|
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.67>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%x_7 = alloca i32 1"   --->   Operation 4 'alloca' 'x_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%n_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %n"   --->   Operation 5 'read' 'n_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%zext_ln110_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %zext_ln110"   --->   Operation 6 'read' 'zext_ln110_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (1.58ns)   --->   "%store_ln0 = store i6 0, i6 %x_7"   --->   Operation 7 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%x = load i6 %x_7"   --->   Operation 9 'load' 'x' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 10 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i6.i32, i6 %x, i32 5" [./bignum.h:204]   --->   Operation 11 'bitselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16"   --->   Operation 12 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln204 = br i1 %tmp, void %.split4, void %_ZNK6BignumILi32ELi64EE5blockEi.exit.i.i.exitStub" [./bignum.h:204]   --->   Operation 13 'br' 'br_ln204' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%x_14_cast23 = zext i6 %x"   --->   Operation 14 'zext' 'x_14_cast23' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%empty_46 = trunc i6 %x"   --->   Operation 15 'trunc' 'empty_46' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln204 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [./bignum.h:204]   --->   Operation 16 'specloopname' 'specloopname_ln204' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (1.42ns)   --->   "%icmp_ln206 = icmp_ult  i6 %x, i6 %n_read" [./bignum.h:206]   --->   Operation 17 'icmp' 'icmp_ln206' <Predicate = (!tmp)> <Delay = 1.42> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.42> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln206 = br i1 %icmp_ln206, void %_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit, void %.split4._crit_edge" [./bignum.h:206]   --->   Operation 18 'br' 'br_ln206' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%r_addr = getelementptr i64 %r, i64 0, i64 %x_14_cast23" [./bignum.h:60]   --->   Operation 19 'getelementptr' 'r_addr' <Predicate = (!tmp & !icmp_ln206)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (3.25ns)   --->   "%store_ln60 = store i64 0, i5 %r_addr" [./bignum.h:60]   --->   Operation 20 'store' 'store_ln60' <Predicate = (!tmp & !icmp_ln206)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 32> <RAM>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%br_ln208 = br void %.split4._crit_edge" [./bignum.h:208]   --->   Operation 21 'br' 'br_ln208' <Predicate = (!tmp & !icmp_ln206)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%or_ln204 = or i5 %empty_46, i5 1" [./bignum.h:204]   --->   Operation 22 'or' 'or_ln204' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%zext_ln206 = zext i5 %or_ln204" [./bignum.h:206]   --->   Operation 23 'zext' 'zext_ln206' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%zext_ln206_1 = zext i5 %or_ln204" [./bignum.h:206]   --->   Operation 24 'zext' 'zext_ln206_1' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (1.42ns)   --->   "%icmp_ln206_1 = icmp_ult  i6 %zext_ln206_1, i6 %zext_ln110_read" [./bignum.h:206]   --->   Operation 25 'icmp' 'icmp_ln206_1' <Predicate = (!tmp)> <Delay = 1.42> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.42> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%br_ln206 = br i1 %icmp_ln206_1, void %_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.1, void %._crit_edge22" [./bignum.h:206]   --->   Operation 26 'br' 'br_ln206' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%r_addr_5 = getelementptr i64 %r, i64 0, i64 %zext_ln206" [./bignum.h:60]   --->   Operation 27 'getelementptr' 'r_addr_5' <Predicate = (!tmp & !icmp_ln206_1)> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (3.25ns)   --->   "%store_ln60 = store i64 0, i5 %r_addr_5" [./bignum.h:60]   --->   Operation 28 'store' 'store_ln60' <Predicate = (!tmp & !icmp_ln206_1)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 32> <RAM>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%br_ln208 = br void %._crit_edge22" [./bignum.h:208]   --->   Operation 29 'br' 'br_ln208' <Predicate = (!tmp & !icmp_ln206_1)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (1.82ns)   --->   "%add_ln204 = add i6 %x, i6 2" [./bignum.h:204]   --->   Operation 30 'add' 'add_ln204' <Predicate = (!tmp)> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 31 [1/1] (1.58ns)   --->   "%store_ln204 = store i6 %add_ln204, i6 %x_7" [./bignum.h:204]   --->   Operation 31 'store' 'store_ln204' <Predicate = (!tmp)> <Delay = 1.58>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%br_ln0 = br void"   --->   Operation 32 'br' 'br_ln0' <Predicate = (!tmp)> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 33 'ret' 'ret_ln0' <Predicate = (tmp)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 8.5ns, clock uncertainty: 2.3ns.
+
+ <State 1>: 5.67ns
+The critical path consists of the following:
+	'alloca' operation ('i') [4]  (0 ns)
+	'load' operation ('x') on local variable 'i' [10]  (0 ns)
+	'add' operation ('add_ln204', ./bignum.h:204) [36]  (1.83 ns)
+	'store' operation ('store_ln204', ./bignum.h:204) of variable 'add_ln204', ./bignum.h:204 on local variable 'i' [37]  (1.59 ns)
+	blocking operation 2.26 ns on control path)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,8 @@
+dut_divide__GB0
+dut_divide__GB1
+dut__GCB0
+dut__GCB1
+dut__GCB2
+dut__GCB3
+dut__GCB4
+xillydemo__GC0

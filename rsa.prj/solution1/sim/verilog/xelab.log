@@ -1,0 +1,128 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_dut_top glbl -Oenable_linking_all_libraries -prj dut.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_19 -L floating_point_v7_1_13 --lib ieee_proposed=./ieee_proposed -s dut 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/AESL_autofifo_strm_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autofifo_strm_in
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/AESL_autofifo_strm_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autofifo_strm_out
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_dut_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_ADJUST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_ADJUST
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_CLEAR_UPPER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_CLEAR_UPPER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_COMPARE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_COMPARE
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_NORMALIZE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_NORMALIZE
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_PARTIAL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_PARTIAL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_REM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_REM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_SHIFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_SHIFT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_SHIFT5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_SHIFT5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_Pipeline_SHIFT6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_Pipeline_SHIFT6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_divide_w_digits_data_V_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_divide_w_digits_data_V_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_READ_LOOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_READ_LOOP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_READ_LOOP3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_READ_LOOP3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_READ_LOOP4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_READ_LOOP4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_SHIFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_SHIFT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_VITIS_LOOP_14_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_VITIS_LOOP_14_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_dut_Pipeline_WRITE_LOOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_dut_Pipeline_WRITE_LOOP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_modulus_digits_data_V_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_modulus_digits_data_V_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_mul_64ns_64ns_128_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_mul_64ns_64ns_128_3_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_mul_64ns_65ns_192_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_mul_64ns_65ns_192_3_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_operator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_operator_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_operator_1_Pipeline_OUTER_INNER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_operator_1_Pipeline_OUTER_INNER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_operator_lt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_operator_lt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_operator_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_operator_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_operator_Pipeline_OUTER_INNER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_operator_Pipeline_OUTER_INNER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_q_digits_data_V_RAM_AUTO_0R0W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_q_digits_data_V_RAM_AUTO_0R0W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_udiv_128ns_64ns_64_132_seq_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_udiv_128ns_64ns_64_132_seq_1_divseq
+INFO: [VRFC 10-311] analyzing module dut_udiv_128ns_64ns_64_132_seq_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dut_zero_digits_data_V_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dut_zero_digits_data_V_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/rsa.prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.dut_q_digits_data_V_RAM_AUTO_0R0...
+Compiling module xil_defaultlib.dut_divide_w_digits_data_V_RAM_A...
+Compiling module xil_defaultlib.dut_zero_digits_data_V_RAM_AUTO_...
+Compiling module xil_defaultlib.dut_modulus_digits_data_V_RAM_AU...
+Compiling module xil_defaultlib.dut_flow_control_loop_pipe_seque...
+Compiling module xil_defaultlib.dut_dut_Pipeline_READ_LOOP
+Compiling module xil_defaultlib.dut_dut_Pipeline_READ_LOOP3
+Compiling module xil_defaultlib.dut_dut_Pipeline_READ_LOOP4
+Compiling module xil_defaultlib.dut_dut_Pipeline_VITIS_LOOP_14_1
+Compiling module xil_defaultlib.dut_divide_Pipeline_NORMALIZE
+Compiling module xil_defaultlib.dut_divide_Pipeline_SHIFT
+Compiling module xil_defaultlib.dut_divide_Pipeline_SHIFT5
+Compiling module xil_defaultlib.dut_divide_Pipeline_CLEAR_UPPER
+Compiling module xil_defaultlib.dut_mul_64ns_64ns_128_3_1(NUM_ST...
+Compiling module xil_defaultlib.dut_divide_Pipeline_PARTIAL
+Compiling module xil_defaultlib.dut_divide_Pipeline_COMPARE
+Compiling module xil_defaultlib.dut_divide_Pipeline_ADJUST
+Compiling module xil_defaultlib.dut_divide_Pipeline_REM
+Compiling module xil_defaultlib.dut_divide_Pipeline_SHIFT6
+Compiling module xil_defaultlib.dut_mul_64ns_65ns_192_3_1(NUM_ST...
+Compiling module xil_defaultlib.dut_udiv_128ns_64ns_64_132_seq_1...
+Compiling module xil_defaultlib.dut_udiv_128ns_64ns_64_132_seq_1...
+Compiling module xil_defaultlib.dut_divide
+Compiling module xil_defaultlib.dut_operator_lt
+Compiling module xil_defaultlib.dut_operator_Pipeline_OUTER_INNE...
+Compiling module xil_defaultlib.dut_operator_mul
+Compiling module xil_defaultlib.dut_dut_Pipeline_SHIFT
+Compiling module xil_defaultlib.dut_operator_1_Pipeline_OUTER_IN...
+Compiling module xil_defaultlib.dut_operator_1
+Compiling module xil_defaultlib.dut_dut_Pipeline_WRITE_LOOP
+Compiling module xil_defaultlib.dut
+Compiling module xil_defaultlib.AESL_autofifo_strm_in
+Compiling module xil_defaultlib.AESL_autofifo_strm_out
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=7)
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=6)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=251)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=459)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=12)
+Compiling module xil_defaultlib.upc_loop_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=8)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_dut_top
+Compiling module work.glbl
+Built simulation snapshot dut

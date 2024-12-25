@@ -1,0 +1,828 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:718:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:732:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:746:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator==" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator!=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Bignum&lt;MAX_DIGITS, BITS&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Bignum&lt;MAX_DIGITS, BITS&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:58:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_block" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:65:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="block" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="size" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="size" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:92:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator%" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:152:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:166:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:178:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:205:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="divide" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:215:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lshift_safe" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:221:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lshift_safe" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:234:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rshift_safe" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:239:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rshift_safe" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=2" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&lt;" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:264:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:269:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&lt;=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:274:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator&gt;=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:279:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator==" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="./bignum.h:284:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator!=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fpga_rsa.cc:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="dut" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=dut" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fpga_rsa.cc:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_rsa_num" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fpga_rsa.cc:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_rsa_num" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fpga_rsa.cc:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_rsa_num" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fpga_rsa.cc:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fpga_powm" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:37:5" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:41:7" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:41:20" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1093:12" msg_body="Inlining function 'ap_range_ref&lt;64, false&gt;::ap_range_ref(ap_int_base&lt;64, false&gt;*, int, int)' into 'ap_int_base&lt;64, false&gt;::range(int, int)'">
+        <args Callee="ap_range_ref&lt;64, false&gt;::ap_range_ref(ap_int_base&lt;64, false&gt;*, int, int)" Caller="ap_int_base&lt;64, false&gt;::range(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1130:18" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::range(int, int)' into 'ap_int_base&lt;64, false&gt;::operator()(int, int)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::range(int, int)" Caller="ap_int_base&lt;64, false&gt;::operator()(int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:413:31" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::ap_int_base&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'ap_range_ref&lt;64, false&gt;&amp; ap_range_ref&lt;64, false&gt;::operator=&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::ap_int_base&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="ap_range_ref&lt;64, false&gt;&amp; ap_range_ref&lt;64, false&gt;::operator=&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:15:13" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:24:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:22:33" msg_body="Inlining function 'ap_range_ref&lt;64, false&gt;&amp; ap_range_ref&lt;64, false&gt;::operator=&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="ap_range_ref&lt;64, false&gt;&amp; ap_range_ref&lt;64, false&gt;::operator=&lt;32, false&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:22:7" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator()(int, int)' into 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator()(int, int)" Caller="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:15:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:15:21" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const' into 'operator==(Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;, Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;)'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const" Caller="operator==(Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;, Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:280:22" msg_body="Inlining function 'operator==(Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;, Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;)' into 'operator==(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="operator==(Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;, Array&lt;ap_uint&lt;64&gt;, 32&gt; const&amp;)" Caller="operator==(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:69:14" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::block(int) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::block(int) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:2233" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:2230" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:78:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::size() const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::size() const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:78:25" msg_body="Inlining function 'bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::size() const'">
+        <args Callee="bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::size() const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1850" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:341" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:555" msg_body="Inlining function 'ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)' into 'ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)" Caller="ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:430" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:940:12" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;32, true&gt;::operator-() const'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;32, true&gt;::operator-() const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:940:37" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;32, true&gt;::operator-() const'">
+        <args Callee="ap_int_base&lt;1, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;1, false, 32, true&gt;(ap_int_base&lt;1, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;32, true&gt;::operator-() const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1026:21" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::to_uint() const' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::to_uint() const" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1043:21" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::to_uint() const' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::to_uint() const" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1033:37" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1038:12" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1036:14" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1035:10" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;&amp; ap_int_base&lt;32, false&gt;::operator=&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;&amp; ap_int_base&lt;32, false&gt;::operator=&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1035:12" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::operator-() const' into 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::operator-() const" Caller="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1749:1817" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1749:1813" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)'">
+        <args Callee="ap_int_base&lt;64, false&gt;&amp; ap_int_base&lt;64, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1691:323" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1026:21" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::to_uint() const' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::to_uint() const" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1043:21" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::to_uint() const' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::to_uint() const" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1033:37" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1038:12" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1036:14" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&lt;&lt;=&lt;32&gt;(ap_int_base&lt;32, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1035:10" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;&amp; ap_int_base&lt;32, false&gt;::operator=&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;&amp; ap_int_base&lt;32, false&gt;::operator=&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1035:12" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::operator-() const' into 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::operator-() const" Caller="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1749:1817" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1749:1813" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator&gt;&gt;=&lt;32&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:2233" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:2230" msg_body="Inlining function 'bool ap_int_base&lt;128, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;128, false&gt;::operator!=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:216:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:228:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:228:23" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:227:13" msg_body="Inlining function 'bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="bool operator!=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:225:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:224:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:224:22" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:223:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator|=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator|=&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:223:43" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:223:14" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:223:33" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:218:17" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:217:22" msg_body="Inlining function 'bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="bool operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:217:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::lshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::lshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:341" msg_body="Inlining function 'ap_int_base&lt;130, true&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;130, true&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:555" msg_body="Inlining function 'ap_int&lt;130&gt;::ap_int&lt;130, true&gt;(ap_int_base&lt;130, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int&lt;130&gt;::ap_int&lt;130, true&gt;(ap_int_base&lt;130, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:430" msg_body="Inlining function 'ap_int_base&lt;130, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;130, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1531" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1529" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;128, false, 32, true&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1543:555" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::logic operator|&lt;128, false, 128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;128, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::logic operator|&lt;128, false, 128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;128, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1558:371" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::div operator/&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::div operator/&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1539:339" msg_body="Inlining function 'ap_int_base&lt;192, false&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;192, false&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1539:551" msg_body="Inlining function 'ap_uint&lt;192&gt;::ap_uint&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;192&gt;::ap_uint&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1539:427" msg_body="Inlining function 'ap_int_base&lt;192, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;192, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:915:16" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;128, false&gt;::operator--()'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;128, false&gt;::operator--()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:915:5" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator-=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::operator--()'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator-=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::operator--()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:339" msg_body="Inlining function 'ap_int_base&lt;129, false&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;129, false&gt;::ap_int_base&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:551" msg_body="Inlining function 'ap_uint&lt;129&gt;::ap_uint&lt;129, false&gt;(ap_int_base&lt;129, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;129&gt;::ap_uint&lt;129, false&gt;(ap_int_base&lt;129, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:427" msg_body="Inlining function 'ap_int_base&lt;129, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;129, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:341" msg_body="Inlining function 'ap_int_base&lt;130, true&gt;::ap_int_base&lt;129, false&gt;(ap_int_base&lt;129, false&gt; const&amp;)' into 'ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;130, true&gt;::ap_int_base&lt;129, false&gt;(ap_int_base&lt;129, false&gt; const&amp;)" Caller="ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:555" msg_body="Inlining function 'ap_int&lt;130&gt;::ap_int&lt;130, true&gt;(ap_int_base&lt;130, true&gt; const&amp;)' into 'ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int&lt;130&gt;::ap_int&lt;130, true&gt;(ap_int_base&lt;130, true&gt; const&amp;)" Caller="ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:430" msg_body="Inlining function 'ap_int_base&lt;130, true&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;130, true&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1691:650" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1543:430" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1543:555" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)' into 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;)" Caller="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:235:15" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:244:11" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:244:11" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:243:7" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:243:20" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:243:41" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:242:21" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::logic operator|&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:242:23" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:242:13" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:236:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'Bignum&lt;32, 64&gt;::rshift_safe(int)'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="Bignum&lt;32, 64&gt;::rshift_safe(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:110:21" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:211:7" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::rshift_safe(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::rshift_safe(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:207:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:207:24" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:199:13" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:199:14" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::operator unsigned long long() const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::operator unsigned long long() const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:199:17" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:198:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:198:28" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:197:13" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:197:32" msg_body="Inlining function 'ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:197:36" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:197:15" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:197:19" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:192:11" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:189:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:189:22" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:184:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:184:26" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;129&gt;(ap_uint&lt;129&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;129&gt;(ap_uint&lt;129&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:184:47" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:184:51" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:182:17" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:182:18" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::operator unsigned long long() const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::operator unsigned long long() const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:182:21" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&gt;&gt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:181:15" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:181:28" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:180:17" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:180:32" msg_body="Inlining function 'ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;129, false&gt;::RType&lt;64, false&gt;::minus operator-&lt;129, false, 64, false&gt;(ap_int_base&lt;129, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:180:36" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:180:19" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:180:23" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:175:15" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:174:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::operator--()' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::operator--()" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:172:28" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator&lt;&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator&lt;&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:172:32" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:172:15" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:167:40" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:167:45" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:167:27" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:158:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:158:22" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:156:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:155:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:155:24" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:154:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator+=&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator+=&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:154:19" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:154:23" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:149:17" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:146:22" msg_body="Inlining function 'bool ap_int_base&lt;128, false&gt;::operator&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="bool ap_int_base&lt;128, false&gt;::operator&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:144:58" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::div operator/&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::div operator/&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:143:61" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::logic operator|&lt;128, false, 128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;128, false&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::logic operator|&lt;128, false, 128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;128, false&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:144:18" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:144:39" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:143:53" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:143:18" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:143:39" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:136:29" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;130&gt;(ap_int&lt;130&gt; const&amp;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:136:61" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:136:52" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;128, false&gt;::arg1 operator&lt;&lt;&lt;128, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:136:30" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:135:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:135:12" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:134:21" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:131:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:130:7" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::lshift_safe(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::lshift_safe(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:129:7" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::lshift_safe(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::lshift_safe(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:126:10" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_int_base&lt;64, false&gt;&amp; operator&gt;&gt;=&lt;64, false&gt;(ap_int_base&lt;64, false&gt;&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:125:14" msg_body="Inlining function 'bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="bool operator==&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;, int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:121:18" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:115:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:113:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:113:22" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="Bignum&lt;32, 64&gt;::divide(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;&amp;, Bignum&lt;32, 64&gt;&amp;) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:103:12" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:103:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:103:15" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:103:15" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:249:21" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:260:24" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator&lt;&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator&lt;&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:260:28" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:260:15" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:258:32" msg_body="Inlining function 'bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="bool ap_int_base&lt;64, false&gt;::operator!=&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:258:37" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:258:23" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:250:15" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::size() const' into 'operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::size() const" Caller="operator&lt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1174:30" msg_body="Inlining function 'ap_bit_ref&lt;64, false&gt;::ap_bit_ref(ap_int_base&lt;64, false&gt;*, int)' into 'ap_int_base&lt;64, false&gt;::operator[](int)'">
+        <args Callee="ap_bit_ref&lt;64, false&gt;::ap_bit_ref(ap_int_base&lt;64, false&gt;*, int)" Caller="ap_int_base&lt;64, false&gt;::operator[](int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:47:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'Bignum&lt;32, 64&gt;::operator[](int) const'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="Bignum&lt;32, 64&gt;::operator[](int) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:47:12" msg_body="Inlining function 'ap_bit_ref&lt;64, false&gt;::operator bool() const' into 'Bignum&lt;32, 64&gt;::operator[](int) const'">
+        <args Callee="ap_bit_ref&lt;64, false&gt;::operator bool() const" Caller="Bignum&lt;32, 64&gt;::operator[](int) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:47:12" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator[](int)' into 'Bignum&lt;32, 64&gt;::operator[](int) const'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator[](int)" Caller="Bignum&lt;32, 64&gt;::operator[](int) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:339" msg_body="Inlining function 'ap_int_base&lt;193, false&gt;::ap_int_base&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)' into 'ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;193, false&gt;::ap_int_base&lt;192, false&gt;(ap_int_base&lt;192, false&gt; const&amp;)" Caller="ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:551" msg_body="Inlining function 'ap_uint&lt;193&gt;::ap_uint&lt;193, false&gt;(ap_int_base&lt;193, false&gt; const&amp;)' into 'ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;193&gt;::ap_uint&lt;193, false&gt;(ap_int_base&lt;193, false&gt; const&amp;)" Caller="ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:427" msg_body="Inlining function 'ap_int_base&lt;193, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)' into 'ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;193, false&gt;::ap_int_base&lt;64, false&gt;(ap_int_base&lt;64, false&gt; const&amp;)" Caller="ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:86:12" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:95:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; operator&gt;&gt;=&lt;128, false&gt;(ap_int_base&lt;128, false&gt;&amp;, int)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:94:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::set_block(int, ap_uint&lt;64&gt;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:94:28" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint&lt;128&gt;(ap_uint&lt;128&gt; const&amp;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:11" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator+=&lt;193, false&gt;(ap_int_base&lt;193, false&gt; const&amp;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;&amp; ap_int_base&lt;128, false&gt;::operator+=&lt;193, false&gt;(ap_int_base&lt;193, false&gt; const&amp;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:58" msg_body="Inlining function 'ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;192, false&gt;::RType&lt;64, false&gt;::plus operator+&lt;192, false, 64, false&gt;(ap_int_base&lt;192, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:62" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:45" msg_body="Inlining function 'ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;128, false&gt;::RType&lt;64, false&gt;::mult operator*&lt;128, false, 64, false&gt;(ap_int_base&lt;128, false&gt; const&amp;, ap_int_base&lt;64, false&gt; const&amp;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:49" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:14" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint&lt;64&gt;(ap_uint&lt;64&gt; const&amp;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:93:35" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:89:17" msg_body="Inlining function 'ap_uint&lt;128&gt;::ap_uint(int)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;128&gt;::ap_uint(int)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="./bignum.h:86:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="operator*(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:42:20" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:61:19" msg_body="Inlining function 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:42:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:44:15" msg_body="Inlining function 'operator==(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="operator==(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:60:9" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::rshift_safe(int)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::rshift_safe(int)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:58:31" msg_body="Inlining function 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:45:22" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:45:12" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:57:11" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::operator[](int) const' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::operator[](int) const" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:56:11" msg_body="Inlining function 'operator&gt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="operator&gt;(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:51:18" msg_body="Inlining function 'ap_uint&lt;64&gt;::ap_uint(int)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="ap_uint&lt;64&gt;::ap_uint(int)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:53:9" msg_body="Inlining function 'operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="operator%(Bignum&lt;32, 64&gt; const&amp;, Bignum&lt;32, 64&gt; const&amp;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:51:13" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)' into 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::Bignum(ap_uint&lt;64&gt;)" Caller="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:404:20" msg_body="Inlining function 'ap_range_ref&lt;64, false&gt;::get() const' into 'ap_int_base&lt;32, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_range_ref&lt;64, false&gt;::get() const" Caller="ap_int_base&lt;32, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int.h:255:92" msg_body="Inlining function 'ap_int_base&lt;32, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'ap_uint&lt;32&gt;::ap_uint&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;32, false&gt;::ap_int_base&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="ap_uint&lt;32&gt;::ap_uint&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:35:21" msg_body="Inlining function 'Bignum&lt;32, 64&gt;::block(int) const' into 'write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="Bignum&lt;32, 64&gt;::block(int) const" Caller="write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:35:17" msg_body="Inlining function 'ap_uint&lt;32&gt;::ap_uint&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)' into 'write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="ap_uint&lt;32&gt;::ap_uint&lt;64, false&gt;(ap_range_ref&lt;64, false&gt; const&amp;)" Caller="write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:35:17" msg_body="Inlining function 'ap_int_base&lt;64, false&gt;::operator()(int, int)' into 'write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;64, false&gt;::operator()(int, int)" Caller="write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:7:20" msg_body="Inlining function 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:10:3" msg_body="Inlining function 'write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="write_rsa_num(Bignum&lt;32, 64&gt;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:10:17" msg_body="Inlining function 'fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="fpga_powm(Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;, Bignum&lt;32, 64&gt;)" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:8:24" msg_body="Inlining function 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="fpga_rsa.cc:9:23" msg_body="Inlining function 'read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="read_rsa_num(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Unrolling loop 'INIT' (./bignum.h:39:5) in function 'dut' completely with a factor of 31">
+        <args Factor="31" LoopLoc="./bignum.h:39:5" LoopName="INIT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Unrolling loop 'SIZE' (./bignum.h:76:5) in function 'dut' completely with a factor of 32">
+        <args Factor="32" LoopLoc="./bignum.h:76:5" LoopName="SIZE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Unrolling loop 'SHIFT' (./bignum.h:238:5) in function 'dut' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:238:5" LoopName="SHIFT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Unrolling loop 'DIGIT_LOOP' (fpga_rsa.cc:20:5) in function 'dut' completely with a factor of 2">
+        <args Factor="2" LoopLoc="fpga_rsa.cc:20:5" LoopName="DIGIT_LOOP"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:85:0" msg_body="Unrolling loop 'INNER' (./bignum.h:91:7) in function 'operator*' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:91:7" LoopName="INNER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="./bignum.h:85:0" msg_body="Unrolling loop 'INIT' (./bignum.h:39:5) in function 'operator*' completely with a factor of 31">
+        <args Factor="31" LoopLoc="./bignum.h:39:5" LoopName="INIT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="./bignum.h:248:0" msg_body="Unrolling loop 'COMPARE' (./bignum.h:255:5) in function 'operator&lt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="./bignum.h:255:5" LoopName="COMPARE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="./bignum.h:248:0" msg_body="Unrolling loop 'SIZE' (./bignum.h:76:5) in function 'operator&lt;' completely with a factor of 32">
+        <args Factor="32" LoopLoc="./bignum.h:76:5" LoopName="SIZE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'SHIFT' (./bignum.h:238:5) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:238:5" LoopName="SHIFT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'SIZE' (./bignum.h:76:5) in function 'Bignum&lt;32, 64&gt;::divide' completely with a factor of 32">
+        <args Factor="32" LoopLoc="./bignum.h:76:5" LoopName="SIZE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'CLEAR_UPPER' (./bignum.h:204:5) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:204:5" LoopName="CLEAR_UPPER"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'PARTIAL' (./bignum.h:151:7) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:151:7" LoopName="PARTIAL"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'COMPARE' (./bignum.h:165:9) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:165:9" LoopName="COMPARE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'REM' (./bignum.h:194:7) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:194:7" LoopName="REM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'INIT' (./bignum.h:39:5) in function 'Bignum&lt;32, 64&gt;::divide' completely with a factor of 31">
+        <args Factor="31" LoopLoc="./bignum.h:39:5" LoopName="INIT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'SHIFT' (./bignum.h:220:7) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:220:7" LoopName="SHIFT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="./bignum.h:108:0" msg_body="Unrolling loop 'NORMALIZE' (./bignum.h:123:5) in function 'Bignum&lt;32, 64&gt;::divide' partially with a factor of 2">
+        <args Factor="2" LoopLoc="./bignum.h:123:5" LoopName="NORMALIZE"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Aggregating fifo (hls::stream) variable 'strm_out' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="strm_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="fpga_rsa.cc:6:0" msg_body="Aggregating fifo (hls::stream) variable 'strm_in' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="strm_in"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h:144:9" msg_body="Inlining function '_llvm.fpga.unpack.bits.s_struct.ap_uint&lt;32&gt;s.i32.1' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.bits.s_struct.ap_uint&lt;32&gt;s.i32.1" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h:173:9" msg_body="Inlining function '_llvm.fpga.pack.none.i32.s_struct.ap_uint&lt;32&gt;s' into 'dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i32.s_struct.ap_uint&lt;32&gt;s" Caller="dut(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

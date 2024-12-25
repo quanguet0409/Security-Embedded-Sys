@@ -1,0 +1,358 @@
+
+
+================================================================
+== Synthesis Summary Report of 'dut'
+================================================================
++ General Information: 
+    * Date:           Thu Dec 19 08:56:17 2024
+    * Version:        2021.2 (Build 3367213 on Tue Oct 19 02:48:09 MDT 2021)
+    * Project:        rsa.prj
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------------------------+--------+-------+----------+-----------+----------+----------+------+----------+----------+----------+-------------+-------------+-----+
+    |                Modules               |  Issue |       | Latency  |  Latency  | Iteration|          | Trip |          |          |          |             |             |     |
+    |                & Loops               |  Type  | Slack | (cycles) |    (ns)   |  Latency | Interval | Count| Pipelined|   BRAM   |    DSP   |      FF     |     LUT     | URAM|
+    +--------------------------------------+--------+-------+----------+-----------+----------+----------+------+----------+----------+----------+-------------+-------------+-----+
+    |+ dut                                 |  Timing|  -0.94|  66757594|  5.674e+08|         -|  66757595|     -|        no|  80 (28%)|  45 (20%)|  25986 (24%)|  33926 (63%)|    -|
+    | + dut_Pipeline_READ_LOOP             |       -|   2.84|        35|    297.500|         -|        35|     -|        no|         -|         -|     85 (~0%)|     99 (~0%)|    -|
+    |  o READ_LOOP                         |      II|   6.20|        33|    280.500|         4|         2|    16|       yes|         -|         -|            -|            -|    -|
+    | + dut_Pipeline_READ_LOOP3            |       -|   2.84|        35|    297.500|         -|        35|     -|        no|         -|         -|     85 (~0%)|     99 (~0%)|    -|
+    |  o READ_LOOP                         |      II|   6.20|        33|    280.500|         4|         2|    16|       yes|         -|         -|            -|            -|    -|
+    | + dut_Pipeline_READ_LOOP4            |       -|   2.84|        35|    297.500|         -|        35|     -|        no|         -|         -|     85 (~0%)|     99 (~0%)|    -|
+    |  o READ_LOOP                         |      II|   6.20|        33|    280.500|         4|         2|    16|       yes|         -|         -|            -|            -|    -|
+    | + dut_Pipeline_VITIS_LOOP_14_1       |       -|   0.17|        68|    578.000|         -|        68|     -|        no|         -|         -|     22 (~0%)|    150 (~0%)|    -|
+    |  o VITIS_LOOP_14_1                   |      II|   6.20|        66|    561.000|         3|         2|    32|       yes|         -|         -|            -|            -|    -|
+    | + divide                             |  Timing|  -0.94|     28313|  2.407e+05|         -|     28313|     -|        no|    4 (1%)|  27 (12%)|  11497 (10%)|  17807 (33%)|    -|
+    |  + divide_Pipeline_NORMALIZE         |       -|   0.85|        34|    289.000|         -|        34|     -|        no|         -|         -|     83 (~0%)|    187 (~0%)|    -|
+    |   o NORMALIZE                        |       -|   6.20|        32|    272.000|         1|         1|    32|       yes|         -|         -|            -|            -|    -|
+    |  + divide_Pipeline_SHIFT             |       -|   0.02|        38|    323.000|         -|        38|     -|        no|         -|         -|    682 (~0%)|    2315 (4%)|    -|
+    |   o SHIFT                            |      II|   6.20|        35|    297.500|         6|         2|    16|       yes|         -|         -|            -|            -|    -|
+    |  + divide_Pipeline_SHIFT5            |       -|   0.02|        38|    323.000|         -|        38|     -|        no|         -|         -|    682 (~0%)|    2315 (4%)|    -|
+    |   o SHIFT                            |      II|   6.20|        35|    297.500|         6|         2|    16|       yes|         -|         -|            -|            -|    -|
+    |  + divide_Pipeline_CLEAR_UPPER       |       -|   0.53|        18|    153.000|         -|        18|     -|        no|         -|         -|      8 (~0%)|     66 (~0%)|    -|
+    |   o CLEAR_UPPER                      |       -|   6.20|        16|    136.000|         1|         1|    16|       yes|         -|         -|            -|            -|    -|
+    |  + divide_Pipeline_SHIFT6            |       -|   1.08|        69|    586.500|         -|        69|     -|        no|         -|         -|    415 (~0%)|    1990 (3%)|    -|
+    |   o SHIFT                            |      II|   6.20|        67|    569.500|         4|         4|    16|       yes|         -|         -|            -|            -|    -|
+    |  o ZERO                              |       -|   6.20|        32|    272.000|         1|         -|    32|        no|         -|         -|            -|            -|    -|
+    |  o DIVIDE                            |       -|   6.20|     27776|  2.361e+05|       868|         -|    32|        no|         -|         -|            -|            -|    -|
+    |   + divide_Pipeline_PARTIAL          |       -|   0.85|        41|    348.500|         -|        41|     -|        no|         -|   18 (8%)|    1255 (1%)|     744 (1%)|    -|
+    |    o PARTIAL                         |      II|   6.20|        38|    323.000|         8|         2|    16|       yes|         -|         -|            -|            -|    -|
+    |   + divide_Pipeline_REM              |       -|   0.87|       135|  1.148e+03|         -|       135|     -|        no|         -|         -|    617 (~0%)|     604 (1%)|    -|
+    |    o REM                             |      II|   6.20|       133|  1.130e+03|         8|         8|    16|       yes|         -|         -|            -|            -|    -|
+    |   o SEARCH                           |       -|   6.20|       550|  4.675e+03|       182|         -|     3|        no|         -|         -|            -|            -|    -|
+    |    + divide_Pipeline_COMPARE         |       -|   1.08|       104|    884.000|         -|       104|     -|        no|         -|         -|    322 (~0%)|    386 (~0%)|    -|
+    |     o COMPARE                        |      II|   6.20|       101|    858.500|         6|         6|    16|       yes|         -|         -|            -|            -|    -|
+    |    + divide_Pipeline_ADJUST          |       -|   0.87|        67|    569.500|         -|        67|     -|        no|         -|         -|    284 (~0%)|    261 (~0%)|    -|
+    |     o ADJUST                         |      II|   6.20|        65|    552.500|         4|         2|    32|       yes|         -|         -|            -|            -|    -|
+    | + dut_Pipeline_WRITE_LOOP            |       -|   2.84|        35|    297.500|         -|        35|     -|        no|         -|         -|     75 (~0%)|    109 (~0%)|    -|
+    |  o WRITE_LOOP                        |      II|   6.20|        33|    280.500|         4|         2|    16|       yes|         -|         -|            -|            -|    -|
+    | o POWM_LOOP                          |       -|   6.20|  66728960|  5.672e+08|     65165|         -|  1024|        no|         -|         -|            -|            -|    -|
+    |  + operator_lt                       |       -|   0.17|       163|  1.386e+03|         -|       163|     -|        no|         -|         -|    419 (~0%)|    4026 (7%)|    -|
+    |  + operator_mul                      |       -|   0.85|      4119|  3.501e+04|         -|      4119|     -|        no|         -|         -|    1432 (1%)|    1475 (2%)|    -|
+    |   + operator_Pipeline_OUTER_INNER    |       -|   0.85|      4102|  3.487e+04|         -|      4102|     -|        no|         -|         -|    1413 (1%)|    1154 (2%)|    -|
+    |    o OUTER_INNER                     |      II|   6.20|      4100|  3.485e+04|        13|         8|   512|       yes|         -|         -|            -|            -|    -|
+    |  + dut_Pipeline_SHIFT                |       -|   1.08|        52|    442.000|         -|        52|     -|        no|         -|         -|    222 (~0%)|    165 (~0%)|    -|
+    |   o SHIFT                            |      II|   6.20|        50|    425.000|         3|         3|    16|       yes|         -|         -|            -|            -|    -|
+    |  + operator_1                        |       -|   0.85|      4119|  3.501e+04|         -|      4119|     -|        no|         -|         -|    1432 (1%)|    1489 (2%)|    -|
+    |   + operator_1_Pipeline_OUTER_INNER  |       -|   0.85|      4102|  3.487e+04|         -|      4102|     -|        no|         -|         -|    1413 (1%)|    1168 (2%)|    -|
+    |    o OUTER_INNER                     |      II|   6.20|      4100|  3.485e+04|        13|         8|   512|       yes|         -|         -|            -|            -|    -|
+    +--------------------------------------+--------+-------+----------+-----------+----------+----------+------+----------+----------+----------+-------------+-------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_FIFO
++-----------+------------+
+| Interface | Data Width |
++-----------+------------+
+| strm_in   | 32         |
+| strm_out  | 32         |
++-----------+------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-------------------------+
+| Argument | Direction | Datatype                |
++----------+-----------+-------------------------+
+| strm_in  | in        | stream<ap_uint<32>, 0>& |
+| strm_out | out       | stream<ap_uint<32>, 0>& |
++----------+-----------+-------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| strm_in  | strm_in      | interface |
+| strm_out | strm_out     | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------+-----+--------+--------------+-----+--------+---------+
+| Name                                | DSP | Pragma | Variable     | Op  | Impl   | Latency |
++-------------------------------------+-----+--------+--------------+-----+--------+---------+
+| + dut                               | 45  |        |              |     |        |         |
+|   i_2_fu_5529_p2                    | -   |        | i_2          | add | fabric | 0       |
+|  + dut_Pipeline_READ_LOOP           | 0   |        |              |     |        |         |
+|    add_ln17_fu_77_p2                | -   |        | add_ln17     | add | fabric | 0       |
+|  + dut_Pipeline_READ_LOOP3          | 0   |        |              |     |        |         |
+|    add_ln17_fu_77_p2                | -   |        | add_ln17     | add | fabric | 0       |
+|  + dut_Pipeline_READ_LOOP4          | 0   |        |              |     |        |         |
+|    add_ln17_fu_77_p2                | -   |        | add_ln17     | add | fabric | 0       |
+|  + dut_Pipeline_VITIS_LOOP_14_1     | 0   |        |              |     |        |         |
+|    add_ln14_fu_94_p2                | -   |        | add_ln14     | add | fabric | 0       |
+|  + divide                           | 27  |        |              |     |        |         |
+|    add_ln112_fu_3310_p2             | -   |        | add_ln112    | add | fabric | 0       |
+|    add_ln121_fu_3345_p2             | -   |        | add_ln121    | add | fabric | 0       |
+|    add_ln127_fu_3358_p2             | -   |        | add_ln127    | add | fabric | 0       |
+|    s_fu_3373_p2                     | -   |        | s            | add | fabric | 0       |
+|    grp_fu_3095_p2                   | -   |        | sub_i_i463   | sub | fabric | 0       |
+|    s_1_fu_3447_p2                   | -   |        | s_1          | add | fabric | 0       |
+|    grp_fu_3095_p2                   | -   |        | sub_i_i373   | sub | fabric | 0       |
+|    sub_ln139_fu_3520_p2             | -   |        | sub_ln139    | sub | fabric | 0       |
+|    x_7_fu_3563_p2                   | -   |        | x_7          | add | fabric | 0       |
+|    add_ln141_fu_3582_p2             | -   |        | add_ln141    | add | fabric | 0       |
+|    add_ln143_fu_3588_p2             | -   |        | add_ln143    | add | fabric | 0       |
+|    add_ln144_fu_3623_p2             | -   |        | add_ln144    | add | fabric | 0       |
+|    mul_64ns_65ns_192_3_1_U59        | 9   |        | mul_ln1072   | mul | dsp    | 2       |
+|    trial_1_fu_3726_p2               | -   |        | trial_1      | add | fabric | 0       |
+|    add_ln170_fu_3737_p2             | -   |        | add_ln170    | add | fabric | 0       |
+|    add_ln172_fu_3744_p2             | -   |        | add_ln172    | add | fabric | 0       |
+|    add_ln172_1_fu_3769_p2           | -   |        | add_ln172_1  | add | fabric | 0       |
+|    qhat_V_2_fu_3820_p2              | -   |        | qhat_V_2     | add | fabric | 0       |
+|    add_ln223_fu_3841_p2             | -   |        | add_ln223    | add | fabric | 0       |
+|    grp_fu_3095_p2                   | -   |        | sub_i_i      | sub | fabric | 0       |
+|   + divide_Pipeline_NORMALIZE       | 0   |        |              |     |        |         |
+|     d_1_fu_170_p2                   | -   |        | d_1          | add | fabric | 0       |
+|     magic_3_fu_176_p2               | -   |        | magic_3      | add | fabric | 0       |
+|   + divide_Pipeline_SHIFT           | 0   |        |              |     |        |         |
+|     add_ln220_fu_239_p2             | -   |        | add_ln220    | add | fabric | 0       |
+|   + divide_Pipeline_SHIFT5          | 0   |        |              |     |        |         |
+|     add_ln220_fu_239_p2             | -   |        | add_ln220    | add | fabric | 0       |
+|   + divide_Pipeline_CLEAR_UPPER     | 0   |        |              |     |        |         |
+|     add_ln204_fu_133_p2             | -   |        | add_ln204    | add | fabric | 0       |
+|   + divide_Pipeline_PARTIAL         | 18  |        |              |     |        |         |
+|     mul_64ns_64ns_128_3_1_U27       | 9   |        | mul_ln885    | mul | dsp    | 2       |
+|     k_V_fu_262_p2                   | -   |        | k_V          | add | fabric | 0       |
+|     mul_64ns_64ns_128_3_1_U28       | 9   |        | mul_ln885_2  | mul | dsp    | 2       |
+|     k_V_15_fu_284_p2                | -   |        | k_V_15       | add | fabric | 0       |
+|     add_ln151_fu_231_p2             | -   |        | add_ln151    | add | fabric | 0       |
+|   + divide_Pipeline_COMPARE         | 0   |        |              |     |        |         |
+|     add_ln167_fu_255_p2             | -   |        | add_ln167    | add | fabric | 0       |
+|     add_ln170_fu_306_p2             | -   |        | add_ln170    | add | fabric | 0       |
+|     add_ln167_1_fu_326_p2           | -   |        | add_ln167_1  | add | fabric | 0       |
+|     i_fu_356_p2                     | -   |        | i            | add | fabric | 0       |
+|     y_3_fu_362_p2                   | -   |        | y_3          | add | fabric | 0       |
+|   + divide_Pipeline_ADJUST          | 0   |        |              |     |        |         |
+|     add_ln177_fu_121_p2             | -   |        | add_ln177    | add | fabric | 0       |
+|     add_ln229_fu_158_p2             | -   |        | add_ln229    | sub | tadder | 0       |
+|     k_V_16_fu_163_p2                | -   |        | k_V_16       | sub | tadder | 0       |
+|   + divide_Pipeline_REM             | 0   |        |              |     |        |         |
+|     add_ln197_fu_184_p2             | -   |        | add_ln197    | add | fabric | 0       |
+|     add_ln229_fu_276_p2             | -   |        | add_ln229    | add | tadder | 0       |
+|     k_V_10_fu_281_p2                | -   |        | k_V_10       | add | tadder | 0       |
+|     add_ln197_1_fu_236_p2           | -   |        | add_ln197_1  | add | fabric | 0       |
+|     newFirst_fu_319_p2              | -   |        | newFirst     | add | tadder | 0       |
+|     k_V_12_fu_324_p2                | -   |        | k_V_12       | add | tadder | 0       |
+|     add_ln194_fu_341_p2             | -   |        | add_ln194    | add | fabric | 0       |
+|   + divide_Pipeline_SHIFT6          | 0   |        |              |     |        |         |
+|     add_ln241_fu_186_p2             | -   |        | add_ln241    | add | fabric | 0       |
+|     add_ln241_2_fu_203_p2           | -   |        | add_ln241_2  | add | fabric | 0       |
+|     x_5_fu_214_p2                   | -   |        | x_5          | add | fabric | 0       |
+|  + operator_lt                      | 0   |        |              |     |        |         |
+|    n_1_fu_1906_p2                   | -   |        | n_1          | add | fabric | 0       |
+|    n_2_fu_1927_p2                   | -   |        | n_2          | add | fabric | 0       |
+|    add_ln258_fu_1933_p2             | -   |        | add_ln258    | add | fabric | 0       |
+|    n_3_fu_1960_p2                   | -   |        | n_3          | add | fabric | 0       |
+|    add_ln258_1_fu_1966_p2           | -   |        | add_ln258_1  | add | fabric | 0       |
+|    n_4_fu_1993_p2                   | -   |        | n_4          | add | fabric | 0       |
+|    add_ln258_2_fu_1999_p2           | -   |        | add_ln258_2  | add | fabric | 0       |
+|    n_5_fu_2026_p2                   | -   |        | n_5          | add | fabric | 0       |
+|    add_ln258_3_fu_2032_p2           | -   |        | add_ln258_3  | add | fabric | 0       |
+|    n_6_fu_2059_p2                   | -   |        | n_6          | add | fabric | 0       |
+|    add_ln258_4_fu_2065_p2           | -   |        | add_ln258_4  | add | fabric | 0       |
+|    n_7_fu_2092_p2                   | -   |        | n_7          | add | fabric | 0       |
+|    add_ln258_5_fu_2098_p2           | -   |        | add_ln258_5  | add | fabric | 0       |
+|    n_8_fu_2125_p2                   | -   |        | n_8          | add | fabric | 0       |
+|    add_ln258_6_fu_2131_p2           | -   |        | add_ln258_6  | add | fabric | 0       |
+|    n_9_fu_2158_p2                   | -   |        | n_9          | add | fabric | 0       |
+|    add_ln258_7_fu_2164_p2           | -   |        | add_ln258_7  | add | fabric | 0       |
+|    n_10_fu_2191_p2                  | -   |        | n_10         | add | fabric | 0       |
+|    add_ln258_8_fu_2197_p2           | -   |        | add_ln258_8  | add | fabric | 0       |
+|    n_11_fu_2224_p2                  | -   |        | n_11         | add | fabric | 0       |
+|    add_ln258_9_fu_2230_p2           | -   |        | add_ln258_9  | add | fabric | 0       |
+|    n_12_fu_2257_p2                  | -   |        | n_12         | add | fabric | 0       |
+|    add_ln258_10_fu_2263_p2          | -   |        | add_ln258_10 | add | fabric | 0       |
+|    n_13_fu_2290_p2                  | -   |        | n_13         | add | fabric | 0       |
+|    add_ln258_11_fu_2296_p2          | -   |        | add_ln258_11 | add | fabric | 0       |
+|    n_14_fu_2323_p2                  | -   |        | n_14         | add | fabric | 0       |
+|    add_ln258_12_fu_2329_p2          | -   |        | add_ln258_12 | add | fabric | 0       |
+|    n_15_fu_2356_p2                  | -   |        | n_15         | add | fabric | 0       |
+|    add_ln258_13_fu_2362_p2          | -   |        | add_ln258_13 | add | fabric | 0       |
+|    n_16_fu_2389_p2                  | -   |        | n_16         | add | fabric | 0       |
+|    n_17_fu_2422_p2                  | -   |        | n_17         | add | fabric | 0       |
+|    n_18_fu_2449_p2                  | -   |        | n_18         | add | fabric | 0       |
+|    add_ln258_15_fu_2455_p2          | -   |        | add_ln258_15 | add | fabric | 0       |
+|    n_19_fu_2482_p2                  | -   |        | n_19         | add | fabric | 0       |
+|    add_ln258_16_fu_2488_p2          | -   |        | add_ln258_16 | add | fabric | 0       |
+|    n_20_fu_2515_p2                  | -   |        | n_20         | add | fabric | 0       |
+|    add_ln258_17_fu_2521_p2          | -   |        | add_ln258_17 | add | fabric | 0       |
+|    n_21_fu_2548_p2                  | -   |        | n_21         | add | fabric | 0       |
+|    add_ln258_18_fu_2554_p2          | -   |        | add_ln258_18 | add | fabric | 0       |
+|    n_22_fu_2581_p2                  | -   |        | n_22         | add | fabric | 0       |
+|    add_ln258_19_fu_2587_p2          | -   |        | add_ln258_19 | add | fabric | 0       |
+|    n_23_fu_2614_p2                  | -   |        | n_23         | add | fabric | 0       |
+|    add_ln258_20_fu_2620_p2          | -   |        | add_ln258_20 | add | fabric | 0       |
+|    n_24_fu_2647_p2                  | -   |        | n_24         | add | fabric | 0       |
+|    add_ln258_21_fu_2653_p2          | -   |        | add_ln258_21 | add | fabric | 0       |
+|    n_25_fu_2680_p2                  | -   |        | n_25         | add | fabric | 0       |
+|    add_ln258_22_fu_2686_p2          | -   |        | add_ln258_22 | add | fabric | 0       |
+|    n_26_fu_2713_p2                  | -   |        | n_26         | add | fabric | 0       |
+|    add_ln258_23_fu_2719_p2          | -   |        | add_ln258_23 | add | fabric | 0       |
+|    n_27_fu_2746_p2                  | -   |        | n_27         | add | fabric | 0       |
+|    add_ln258_24_fu_2752_p2          | -   |        | add_ln258_24 | add | fabric | 0       |
+|    n_28_fu_2779_p2                  | -   |        | n_28         | add | fabric | 0       |
+|    add_ln258_25_fu_2785_p2          | -   |        | add_ln258_25 | add | fabric | 0       |
+|    n_29_fu_2812_p2                  | -   |        | n_29         | add | fabric | 0       |
+|    add_ln258_26_fu_2818_p2          | -   |        | add_ln258_26 | add | fabric | 0       |
+|    n_30_fu_2845_p2                  | -   |        | n_30         | add | fabric | 0       |
+|    add_ln258_27_fu_2851_p2          | -   |        | add_ln258_27 | add | fabric | 0       |
+|    add_ln257_fu_2878_p2             | -   |        | add_ln257    | add | fabric | 0       |
+|    add_ln258_28_fu_2906_p2          | -   |        | add_ln258_28 | add | fabric | 0       |
+|  + operator_mul                     | 0   |        |              |     |        |         |
+|   + operator_Pipeline_OUTER_INNER   | 0   |        |              |     |        |         |
+|     add_ln88_fu_154_p2              | -   |        | add_ln88     | add | fabric | 0       |
+|     add_ln88_1_fu_182_p2            | -   |        | add_ln88_1   | add | fabric | 0       |
+|     add_ln93_fu_230_p2              | -   |        | add_ln93     | add | fabric | 0       |
+|     add_ln885_fu_319_p2             | -   |        | add_ln885    | add | fabric | 0       |
+|     k_V_1_fu_331_p2                 | -   |        | k_V_1        | add | fabric | 0       |
+|     add_ln223_fu_336_p2             | -   |        | add_ln223    | add | fabric | 0       |
+|     add_ln93_1_fu_250_p2            | -   |        | add_ln93_1   | add | fabric | 0       |
+|     add_ln885_2_fu_360_p2           | -   |        | add_ln885_2  | add | fabric | 0       |
+|     k_V_3_fu_372_p2                 | -   |        | k_V_3        | add | fabric | 0       |
+|     add_ln223_1_fu_377_p2           | -   |        | add_ln223_1  | add | fabric | 0       |
+|     add_ln91_fu_268_p2              | -   |        | add_ln91     | add | fabric | 0       |
+|  + dut_Pipeline_SHIFT               | 0   |        |              |     |        |         |
+|    add_ln241_fu_146_p2              | -   |        | add_ln241    | add | fabric | 0       |
+|    add_ln241_1_fu_163_p2            | -   |        | add_ln241_1  | add | fabric | 0       |
+|    x_3_fu_174_p2                    | -   |        | x_3          | add | fabric | 0       |
+|  + operator_1                       | 0   |        |              |     |        |         |
+|   + operator_1_Pipeline_OUTER_INNER | 0   |        |              |     |        |         |
+|     add_ln88_1_fu_147_p2            | -   |        | add_ln88_1   | add | fabric | 0       |
+|     add_ln88_fu_175_p2              | -   |        | add_ln88     | add | fabric | 0       |
+|     add_ln93_fu_223_p2              | -   |        | add_ln93     | add | fabric | 0       |
+|     add_ln885_fu_312_p2             | -   |        | add_ln885    | add | fabric | 0       |
+|     k_V_6_fu_324_p2                 | -   |        | k_V_6        | add | fabric | 0       |
+|     add_ln223_fu_329_p2             | -   |        | add_ln223    | add | fabric | 0       |
+|     add_ln93_1_fu_243_p2            | -   |        | add_ln93_1   | add | fabric | 0       |
+|     add_ln885_2_fu_353_p2           | -   |        | add_ln885_2  | add | fabric | 0       |
+|     k_V_7_fu_365_p2                 | -   |        | k_V_7        | add | fabric | 0       |
+|     add_ln223_1_fu_370_p2           | -   |        | add_ln223_1  | add | fabric | 0       |
+|     add_ln91_fu_261_p2              | -   |        | add_ln91     | add | fabric | 0       |
+|  + dut_Pipeline_WRITE_LOOP          | 0   |        |              |     |        |         |
+|    add_ln32_fu_82_p2                | -   |        | add_ln32     | add | fabric | 0       |
++-------------------------------------+-----+--------+--------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-----------------------------+------+------+--------+-------------------------+---------+------+---------+
+| Name                        | BRAM | URAM | Pragma | Variable                | Storage | Impl | Latency |
++-----------------------------+------+------+--------+-------------------------+---------+------+---------+
+| + dut                       | 80   | 0    |        |                         |         |      |         |
+|   q_digits_data_V_U         | 4    | -    |        | q_digits_data_V         | ram_t2p | auto | 1       |
+|   agg_tmp2_i99_i_U          | 4    | -    |        | agg_tmp2_i99_i          | ram_t2p | auto | 1       |
+|   q_digits_data_V_1_U       | 4    | -    |        | q_digits_data_V_1       | ram_t2p | auto | 1       |
+|   agg_tmp2_i43_i_U          | 4    | -    |        | agg_tmp2_i43_i          | ram_t2p | auto | 1       |
+|   q_digits_data_V_2_U       | 4    | -    |        | q_digits_data_V_2       | ram_t2p | auto | 1       |
+|   agg_tmp2_i_i33_U          | 4    | -    |        | agg_tmp2_i_i33          | ram_t2p | auto | 1       |
+|   result_digits_data_V_U    | 4    | -    |        | result_digits_data_V    | ram_t2p | auto | 1       |
+|   b_digits_data_V_U         | 4    | -    |        | b_digits_data_V         | ram_t2p | auto | 1       |
+|   e_digits_data_V_U         | 4    | -    |        | e_digits_data_V         | ram_t2p | auto | 1       |
+|   zero_digits_data_V_U      | -    | -    |        | zero_digits_data_V      | ram_t2p | auto | 1       |
+|   r_digits_data_V_U         | 4    | -    |        | r_digits_data_V         | ram_t2p | auto | 1       |
+|   r_digits_data_V_1_U       | 4    | -    |        | r_digits_data_V_1       | ram_t2p | auto | 1       |
+|   u_digits_data_V_2_U       | 4    | -    |        | u_digits_data_V_2       | ram_t2p | auto | 1       |
+|   r_digits_data_V_2_U       | 4    | -    |        | r_digits_data_V_2       | ram_t2p | auto | 1       |
+|   u_digits_data_V_3_U       | 4    | -    |        | u_digits_data_V_3       | ram_t2p | auto | 1       |
+|   modulus_digits_data_V_U   | 4    | -    |        | modulus_digits_data_V   | ram_t2p | auto | 1       |
+|   num_digits_data_V_U       | 4    | -    |        | num_digits_data_V       | ram_t2p | auto | 1       |
+|   base_digits_data_V_U      | 4    | -    |        | base_digits_data_V      | ram_t2p | auto | 1       |
+|   exponent_digits_data_V_U  | 4    | -    |        | exponent_digits_data_V  | ram_t2p | auto | 1       |
+|   modulus_digits_data_V_2_U | 4    | -    |        | modulus_digits_data_V_2 | ram_t2p | auto | 1       |
+|  + divide                   | 4    | 0    |        |                         |         |      |         |
+|    w_digits_data_V_U        | 4    | -    |        | w_digits_data_V         | ram_t2p | auto | 1       |
++-----------------------------+------+------+--------+-------------------------+---------+------+---------+
+
+
+================================================================
+== User Pragma Report
+================================================================
+* Valid Pragma Syntax
++----------+----------+-------------------------------------------+
+| Type     | Options  | Location                                  |
++----------+----------+-------------------------------------------+
+| inline   |          | ./bignum.h:13 in operator==               |
+| inline   |          | ./bignum.h:23 in operator!=               |
+| inline   |          | ./bignum.h:36 in bignum<max_digits, bits> |
+| unroll   |          | ./bignum.h:40 in bignum<max_digits, bits> |
+| inline   |          | ./bignum.h:46 in operator[]               |
+| inline   |          | ./bignum.h:51 in set                      |
+| inline   |          | ./bignum.h:58 in set_block                |
+| inline   |          | ./bignum.h:65 in block                    |
+| inline   |          | ./bignum.h:74 in size                     |
+| unroll   |          | ./bignum.h:77 in size                     |
+| unroll   | factor=2 | ./bignum.h:92 in operator*                |
+| inline   |          | ./bignum.h:102 in operator%               |
+| unroll   | factor=2 | ./bignum.h:124 in divide                  |
+| unroll   | factor=2 | ./bignum.h:152 in divide                  |
+| unroll   | factor=2 | ./bignum.h:166 in divide                  |
+| pipeline |          | ./bignum.h:178 in divide                  |
+| unroll   | factor=2 | ./bignum.h:195 in divide                  |
+| unroll   | factor=2 | ./bignum.h:205 in divide                  |
+| inline   |          | ./bignum.h:215 in lshift_safe             |
+| unroll   | factor=2 | ./bignum.h:221 in lshift_safe             |
+| inline   |          | ./bignum.h:234 in rshift_safe             |
+| unroll   | factor=2 | ./bignum.h:239 in rshift_safe             |
+| unroll   |          | ./bignum.h:256 in operator<               |
+| inline   |          | ./bignum.h:264 in operator>               |
+| inline   |          | ./bignum.h:269 in operator<=              |
+| inline   |          | ./bignum.h:274 in operator>=              |
+| inline   |          | ./bignum.h:279 in operator==              |
+| inline   |          | ./bignum.h:284 in operator!=              |
+| inline   |          | fpga_rsa.cc:14 in read_rsa_num            |
+| unroll   |          | fpga_rsa.cc:21 in read_rsa_num            |
+| inline   |          | fpga_rsa.cc:30 in write_rsa_num           |
+| inline   |          | fpga_rsa.cc:41 in fpga_powm               |
++----------+----------+-------------------------------------------+
+
+

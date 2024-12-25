@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1734573364610">
+  <ports id="1" name="strm_in" type="PortType" coreName="FIFO" coreId="1953391988" bitwidth="32" iftype="IfTypeRom">
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="base_digits_data_V" type="PortType" coreName="RAM" coreId="1953391988" bitwidth="64" direction="DirOut" iftype="IfTypeRegister" arraysize="32">
+    <dataInputObjs>getelementptr</dataInputObjs>
+  </ports>
+  <edges id="31" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="32" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="33" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="34" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="37" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="40" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="41" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="42" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="43" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="46" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="48" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="51" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="52" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="53" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@ports.1"/>
+  <edges id="56" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="57" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="58" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="59" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="60" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="61" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="102" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="103" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="104" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="105" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="106" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="107" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="108" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="109" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="2147483647" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1" is_back_edge="1"/>
+  <blocks id="7" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="3" name="x_1" originalName="i" coreId="3178614984" bitwidth="5" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="x_1_write_ln0" coreId="3178616104" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="6" name="br_ln0" coreId="3178615544" opcode="br" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="26" name="_Z12read_rsa_numRN3hls6streamI7ap_uintILi32EELi0EEE.exit.exitStub" type="BlockType">
+    <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="_ln0" coreId="0" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="2" typeName="Pipeline" iiViolation="Memory Dependency;mFailedII=1;mDependenceDistancedII=1;mLimitedResource=0;nodes=18__,17__;" id="95" pipe_depth="4" RegionName="READ_LOOP">
+    <basic_blocks id="14" name="_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_Z12read_rsa_numRN3hls6streamI7ap_uintILi32EELi0EEE.exit.exitStub</controlOutputObjs>
+      <controlOutputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="8" name="x" lineNumber="17" originalName="x" fileName="fpga_rsa.cc" fileDirectory=".." coreId="3178612744" contextFuncName="read_rsa_num" bitwidth="5" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="10" name="icmp_ln17" lineNumber="17" fileName="fpga_rsa.cc" fileDirectory=".." rtlName="icmp_ln17_fu_71_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="read_rsa_num" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.36" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="add_ln17" lineNumber="17" fileName="fpga_rsa.cc" fileDirectory=".." rtlName="add_ln17_fu_77_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="read_rsa_num" bitwidth="5" opcode="add" m_display="0" m_delay="1.78" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="br_ln17" lineNumber="17" fileName="fpga_rsa.cc" fileDirectory=".." coreId="3178617224" contextFuncName="read_rsa_num" opcode="br" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i.split</controlInputObjs>
+        <controlInputObjs>_Z12read_rsa_numRN3hls6streamI7ap_uintILi32EELi0EEE.exit.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fpga_rsa.cc">
+        <validLinenumbers>17</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="24" name="_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i.split" type="BlockType">
+      <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="x_7_cast" lineNumber="17" fileName="fpga_rsa.cc" fileDirectory=".." rtlName="x_7_cast_fu_88_p1" coreId="3178617784" contextFuncName="read_rsa_num" bitwidth="64" opcode="zext" nodeLabel="3.0" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="tmp_V" lineNumber="144" originalName="tmp.V" fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h" fileDirectory=".." coreName="FIFO" implIndex="memory" control="no" opType="fifo" coreId="78" contextFuncName="read" bitwidth="32" opcode="read" nodeLabel="1.0" m_display="1" m_delay="3.1" m_isLCDNode="true" m_isStartOfPath="true" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h" linenumber="144" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read"/>
+        <dataInputObjs>strm_in</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="tmp_V_3" lineNumber="144" originalName="tmp.V" fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h" fileDirectory=".." coreName="FIFO" implIndex="memory" control="no" opType="fifo" coreId="78" contextFuncName="read" bitwidth="32" opcode="read" nodeLabel="2.0" m_display="1" m_delay="3.1" m_isLCDNode="true" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h" linenumber="144" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read"/>
+        <dataInputObjs>strm_in</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <dataOutputObjs>read</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="p_Result_s" lineNumber="414" originalName="__Result__" fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h" fileDirectory=".." rtlName="base_digits_data_V_d0" coreId="3178613304" contextFuncName="operator_assign_32_false" bitwidth="64" opcode="bitconcatenate" nodeLabel="3.0" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h" linenumber="414" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="operator=&amp;lt;32, false&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="base_digits_data_V_addr" lineNumber="60" fileName="./bignum.h" fileDirectory=".." coreId="3178611624" contextFuncName="set_block" bitwidth="5" opcode="getelementptr" nodeLabel="3.0" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="./bignum.h" linenumber="60" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="set_block"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>base_digits_data_V</dataOutputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="base_digits_data_V_addr_write_ln60" lineNumber="60" fileName="./bignum.h" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="set_block" opcode="store" nodeLabel="3.0" m_display="0" m_delay="3.25" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="./bignum.h" linenumber="60" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="set_block"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>getelementptr</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="x_1_write_ln17" lineNumber="17" fileName="fpga_rsa.cc" fileDirectory=".." coreId="0" contextFuncName="read_rsa_num" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fpga_rsa.cc" linenumber="17" fileDirectory="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2" functionName="read_rsa_num"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="br_ln0" coreId="0" opcode="br" nodeLabel="3.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <controlInputObjs>_ZN6BignumILi32ELi64EE9set_blockEi7ap_uintILi64EE.exit.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot/hls_stream_39.h">
+        <validLinenumbers>144</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h">
+        <validLinenumbers>414</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="fpga_rsa.cc">
+        <validLinenumbers>17</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="./bignum.h">
+        <validLinenumbers>60</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <regnodes realName="x_1_reg_99">
+    <nodeIds>3</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln17_reg_111">
+    <nodeIds>10</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_V_reg_115">
+    <nodeIds>17</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_V_3_reg_120">
+    <nodeIds>18</nodeIds>
+  </regnodes>
+  <regnodes realName="x_reg_106">
+    <nodeIds>8</nodeIds>
+  </regnodes>
+  <expressionNodes realName="x_1_fu_40">
+    <nodeIds>3</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="x_7_cast_fu_88">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="base_digits_data_V_addr_gep_fu_50">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln17_fu_77">
+    <nodeIds>12</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln17_fu_71">
+    <nodeIds>10</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="p_Result_s_fu_92">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="grp_read_fu_44">
+    <nodeIds>17</nodeIds>
+    <nodeIds>18</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln17_store_fu_83">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_load_fu_68">
+    <nodeIds>8</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln0_store_fu_63">
+    <nodeIds>5</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="base_digits_data_V">
+    <nodeIds>21</nodeIds>
+  </memoryPorts>
+  <ioPorts name="base_digits_data_V(p0)">
+    <contents name="store">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="strm_in">
+    <contents name="read">
+      <nodeIds>17</nodeIds>
+      <nodeIds>18</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="18" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+    </states>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="dut_Pipeline_READ_LOOP" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="35" mMaxLatency="35">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>7</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="READ_LOOP" mII="2" mDepth="4" mMinTripCount="16" mMaxTripCount="16" mMinLatency="33" mMaxLatency="33" mType="1">
+      <basicBlocks>14</basicBlocks>
+      <basicBlocks>24</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>26</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

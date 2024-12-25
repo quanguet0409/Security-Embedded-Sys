@@ -1,0 +1,185 @@
+
+
+================================================================
+== Vitis HLS Report for 'divide_Pipeline_REM'
+================================================================
+* Date:           Thu Dec 19 08:56:07 2024
+
+* Version:        2021.2 (Build 3367213 on Tue Oct 19 02:48:09 MDT 2021)
+* Project:        rsa.prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  8.50 ns|  5.336 ns|     2.30 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       15|      135|  0.128 us|  1.147 us|   15|  135|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  |  Trip  |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  |  Count | Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+        |- REM     |       13|      133|         8|          8|          1|  1 ~ 16|       yes|
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    477|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|    127|    -|
+|Register         |        -|    -|     617|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     617|    604|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|      1|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-------------------------+----------+----+---+----+------------+------------+
+    |add_ln194_fu_341_p2      |         +|   0|  0|  14|           6|           2|
+    |add_ln197_1_fu_236_p2    |         +|   0|  0|  14|           7|           7|
+    |add_ln197_fu_184_p2      |         +|   0|  0|  14|           7|           7|
+    |add_ln229_fu_276_p2      |         +|   0|  0|  65|          65|          65|
+    |k_V_12_fu_324_p2         |         +|   0|  0|  65|          65|          65|
+    |k_V_10_fu_281_p2         |         -|   0|  0|  65|          65|          65|
+    |newFirst_fu_319_p2       |         -|   0|  0|  65|          65|          65|
+    |ap_condition_367         |       and|   0|  0|   2|           1|           1|
+    |icmp_ln196_1_fu_230_p2   |      icmp|   0|  0|  10|           6|           6|
+    |icmp_ln196_fu_178_p2     |      icmp|   0|  0|  10|           6|           6|
+    |icmp_ln66_1_fu_257_p2    |      icmp|   0|  0|   8|           2|           1|
+    |icmp_ln66_fu_205_p2      |      icmp|   0|  0|   8|           2|           1|
+    |or_ln194_fu_211_p2       |        or|   0|  0|   5|           5|           1|
+    |k_V_21_cast_fu_166_p3    |    select|   0|  0|   2|           1|           2|
+    |select_ln194_fu_299_p3   |    select|   0|  0|   2|           1|           2|
+    |select_ln66_2_fu_306_p3  |    select|   0|  0|  64|           1|          64|
+    |select_ln66_fu_263_p3    |    select|   0|  0|  64|           1|          64|
+    +-------------------------+----------+----+---+----+------------+------------+
+    |Total                    |          |   0|  0| 477|         306|         424|
+    +-------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------------+----+-----------+-----+-----------+
+    |             Name             | LUT| Input Size| Bits| Total Bits|
+    +------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                     |  48|          9|    1|          9|
+    |ap_done_int                   |   9|          2|    1|          2|
+    |ap_phi_mux_k_V_phi_fu_134_p4  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i            |   9|          2|    6|         12|
+    |i_7_fu_64                     |   9|          2|    6|         12|
+    |k_V_reg_131                   |   9|          2|    1|          2|
+    |r_address0                    |  20|          4|    5|         20|
+    |r_d0                          |  14|          3|   64|        192|
+    +------------------------------+----+-----------+-----+-----------+
+    |Total                         | 127|         26|   85|        251|
+    +------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------+----+----+-----+-----------+
+    |              Name              | FF | LUT| Bits| Const Bits|
+    +--------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                       |   8|   0|    8|          0|
+    |ap_done_reg                     |   1|   0|    1|          0|
+    |i_7_fu_64                       |   6|   0|    6|          0|
+    |i_reg_358                       |   6|   0|    6|          0|
+    |icmp_ln196_1_reg_391            |   1|   0|    1|          0|
+    |icmp_ln196_reg_372              |   1|   0|    1|          0|
+    |icmp_ln66_1_reg_395             |   1|   0|    1|          0|
+    |icmp_ln66_reg_376               |   1|   0|    1|          0|
+    |k_V_11_reg_430                  |   1|   0|    1|          0|
+    |k_V_12_reg_445                  |  65|   0|   65|          0|
+    |k_V_21_cast_reg_367             |  65|   0|   65|          0|
+    |k_V_reg_131                     |   1|   0|    1|          0|
+    |r_addr_3_reg_400                |   5|   0|    5|          0|
+    |r_addr_reg_381                  |   5|   0|    5|          0|
+    |select_ln194_reg_435            |  65|   0|   65|          0|
+    |select_ln66_2_reg_440           |  64|   0|   64|          0|
+    |select_ln66_reg_410             |  64|   0|   64|          0|
+    |tmp_reg_363                     |   1|   0|    1|          0|
+    |trunc_ln223_1_reg_450           |  64|   0|   64|          0|
+    |trunc_ln223_reg_425             |  64|   0|   64|          0|
+    |w_digits_data_V_load_1_reg_420  |  64|   0|   64|          0|
+    |w_digits_data_V_load_reg_415    |  64|   0|   64|          0|
+    +--------------------------------+----+----+-----+-----------+
+    |Total                           | 617|   0|  617|          0|
+    +--------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------------------+-----+-----+------------+---------------------+--------------+
+|         RTL Ports        | Dir | Bits|  Protocol  |    Source Object    |    C Type    |
++--------------------------+-----+-----+------------+---------------------+--------------+
+|ap_clk                    |   in|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|ap_rst                    |   in|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|ap_start                  |   in|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|ap_done                   |  out|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|ap_idle                   |  out|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|ap_ready                  |  out|    1|  ap_ctrl_hs|  divide_Pipeline_REM|  return value|
+|add_ln141                 |   in|    7|     ap_none|            add_ln141|        scalar|
+|r_address0                |  out|    5|   ap_memory|                    r|         array|
+|r_ce0                     |  out|    1|   ap_memory|                    r|         array|
+|r_we0                     |  out|    1|   ap_memory|                    r|         array|
+|r_d0                      |  out|   64|   ap_memory|                    r|         array|
+|r_q0                      |   in|   64|   ap_memory|                    r|         array|
+|w_digits_data_V_address0  |  out|    5|   ap_memory|      w_digits_data_V|         array|
+|w_digits_data_V_ce0       |  out|    1|   ap_memory|      w_digits_data_V|         array|
+|w_digits_data_V_q0        |   in|   64|   ap_memory|      w_digits_data_V|         array|
+|w_digits_data_V_address1  |  out|    5|   ap_memory|      w_digits_data_V|         array|
+|w_digits_data_V_ce1       |  out|    1|   ap_memory|      w_digits_data_V|         array|
+|w_digits_data_V_q1        |   in|   64|   ap_memory|      w_digits_data_V|         array|
+|zext_ln110                |   in|    6|     ap_none|           zext_ln110|        scalar|
+|n                         |   in|    6|     ap_none|                    n|        scalar|
++--------------------------+-----+-----+------------+---------------------+--------------+
+
