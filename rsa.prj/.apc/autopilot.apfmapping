@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
-  <source>
-    <originFiles name="fpga_rsa.cc" path="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2\fpga_rsa.cc"/>
-  </source>
-  <testbench>
-    <originFiles name="rsa.cc" path="D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2\rsa.cc"/>
-  </testbench>
-</autopilotfilemapping:AutoPilotFileMapping>

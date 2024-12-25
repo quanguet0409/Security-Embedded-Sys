@@ -1,7 +1,0 @@
-   Build using "D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vitis_HLS/2021.2/tps/win64/msys64/mingw64/bin/g++"
-   Compiling apatb_dut.cpp
-   Compiling apatb_dut_util.cpp
-   Compiling rsa.cc_pre.cc.tb.cc
-   Compiling fpga_rsa.cc_pre.cc.tb.cc
-   Compiling apatb_dut_ir.ll
-   Generating cosim.tv.exe
