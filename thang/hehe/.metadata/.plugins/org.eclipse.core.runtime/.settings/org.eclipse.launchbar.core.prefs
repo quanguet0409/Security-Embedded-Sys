@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_1,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_2,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_3,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_4,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_5,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_6,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_7,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_8,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_9,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_10,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_11,org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default_12
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_TRNG-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

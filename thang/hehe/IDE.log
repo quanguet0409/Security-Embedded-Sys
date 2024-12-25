@@ -1,0 +1,699 @@
+11:24:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Admin\Desktop\hehe\temp_xsdb_launch_script.tcl
+11:24:58 INFO  : Platform repository initialization has completed.
+11:25:03 INFO  : XSCT server has started successfully.
+11:25:07 INFO  : plnx-install-location is set to ''
+11:25:07 INFO  : Successfully done setting XSCT server connection channel  
+11:25:07 INFO  : Successfully done query RDI_DATADIR 
+11:25:07 INFO  : Successfully done setting workspace for the tool. 
+11:29:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Admin\Desktop\hehe\temp_xsdb_launch_script.tcl
+11:29:59 INFO  : Platform repository initialization has completed.
+11:30:01 INFO  : XSCT server has started successfully.
+11:30:01 INFO  : plnx-install-location is set to ''
+11:30:01 INFO  : Successfully done setting XSCT server connection channel  
+11:30:01 INFO  : Successfully done query RDI_DATADIR 
+11:30:01 INFO  : Successfully done setting workspace for the tool. 
+11:30:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Admin\Desktop\hehe\temp_xsdb_launch_script.tcl
+11:30:48 INFO  : Platform repository initialization has completed.
+11:30:48 INFO  : Registering command handlers for Vitis TCF services
+11:30:50 INFO  : XSCT server has started successfully.
+11:30:50 INFO  : Successfully done setting XSCT server connection channel  
+11:30:50 INFO  : plnx-install-location is set to ''
+11:30:50 INFO  : Successfully done query RDI_DATADIR 
+11:30:50 INFO  : Successfully done setting workspace for the tool. 
+11:34:53 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:34:53 INFO  : Result from executing command 'getPlatforms': 
+11:34:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:34:53 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:35:06 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+12:11:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
+12:11:42 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+12:11:42 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:14:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:14:10 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:14:10 INFO  : 'jtag frequency' command is executed.
+12:14:10 INFO  : Context for 'APU' is selected.
+12:14:10 INFO  : System reset is completed.
+12:14:13 INFO  : 'after 3000' command is executed.
+12:14:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:14:16 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:14:16 INFO  : Context for 'APU' is selected.
+12:14:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:14:16 INFO  : 'configparams force-mem-access 1' command is executed.
+12:14:16 INFO  : Context for 'APU' is selected.
+12:14:16 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:14:17 INFO  : 'ps7_init' command is executed.
+12:14:17 INFO  : 'ps7_post_config' command is executed.
+12:14:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:14:18 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:14:18 INFO  : 'configparams force-mem-access 0' command is executed.
+12:14:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:14:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:14:18 INFO  : 'con' command is executed.
+12:14:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:14:18 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default.tcl'
+12:15:18 INFO  : Disconnected from the channel tcfchan#2.
+12:15:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:15:19 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:15:19 INFO  : 'jtag frequency' command is executed.
+12:15:19 INFO  : Context for 'APU' is selected.
+12:15:19 INFO  : System reset is completed.
+12:15:22 INFO  : 'after 3000' command is executed.
+12:15:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:15:24 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:15:25 INFO  : Context for 'APU' is selected.
+12:15:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:15:25 INFO  : 'configparams force-mem-access 1' command is executed.
+12:15:25 INFO  : Context for 'APU' is selected.
+12:15:25 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:15:26 INFO  : 'ps7_init' command is executed.
+12:15:26 INFO  : 'ps7_post_config' command is executed.
+12:15:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:15:26 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:15:26 INFO  : 'configparams force-mem-access 0' command is executed.
+12:15:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:15:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:15:27 INFO  : 'con' command is executed.
+12:15:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:15:27 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_1.tcl'
+12:18:28 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:22:41 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:24:56 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:25:26 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:25:51 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:27:02 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:27:31 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:27:38 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:27:54 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:28:54 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:29:17 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:30:11 INFO  : Disconnected from the channel tcfchan#3.
+12:30:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:12 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:30:12 INFO  : 'jtag frequency' command is executed.
+12:30:12 INFO  : Context for 'APU' is selected.
+12:30:12 INFO  : System reset is completed.
+12:30:15 INFO  : 'after 3000' command is executed.
+12:30:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:30:18 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:30:18 INFO  : Context for 'APU' is selected.
+12:30:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:30:18 INFO  : 'configparams force-mem-access 1' command is executed.
+12:30:18 INFO  : Context for 'APU' is selected.
+12:30:18 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:30:19 INFO  : 'ps7_init' command is executed.
+12:30:19 INFO  : 'ps7_post_config' command is executed.
+12:30:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:30:19 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:30:20 INFO  : 'configparams force-mem-access 0' command is executed.
+12:30:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:30:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:30:20 INFO  : 'con' command is executed.
+12:30:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:30:20 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_2.tcl'
+12:30:53 INFO  : Disconnected from the channel tcfchan#4.
+12:30:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:54 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:30:54 INFO  : 'jtag frequency' command is executed.
+12:30:54 INFO  : Context for 'APU' is selected.
+12:30:54 INFO  : System reset is completed.
+12:30:57 INFO  : 'after 3000' command is executed.
+12:30:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:31:00 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:31:00 INFO  : Context for 'APU' is selected.
+12:31:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:31:00 INFO  : 'configparams force-mem-access 1' command is executed.
+12:31:00 INFO  : Context for 'APU' is selected.
+12:31:00 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:31:01 INFO  : 'ps7_init' command is executed.
+12:31:01 INFO  : 'ps7_post_config' command is executed.
+12:31:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:31:01 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:31:01 INFO  : 'configparams force-mem-access 0' command is executed.
+12:31:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:31:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:31:02 INFO  : 'con' command is executed.
+12:31:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:31:02 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_3.tcl'
+12:31:45 INFO  : Disconnected from the channel tcfchan#5.
+12:31:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:31:47 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:31:47 INFO  : 'jtag frequency' command is executed.
+12:31:48 INFO  : Context for 'APU' is selected.
+12:31:48 INFO  : System reset is completed.
+12:31:51 INFO  : 'after 3000' command is executed.
+12:31:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:31:53 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:31:53 INFO  : Context for 'APU' is selected.
+12:31:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:31:53 INFO  : 'configparams force-mem-access 1' command is executed.
+12:31:53 INFO  : Context for 'APU' is selected.
+12:31:53 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:31:54 INFO  : 'ps7_init' command is executed.
+12:31:54 INFO  : 'ps7_post_config' command is executed.
+12:31:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:31:55 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:31:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:31:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:31:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:31:55 INFO  : 'con' command is executed.
+12:31:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:31:55 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_4.tcl'
+12:38:27 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:38:27 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;TRNG;TRNG_system;design_1_wrapper
+12:38:27 WARN  : Failed to closehw "C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+12:38:27 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;TRNG;TRNG_system;design_1_wrapper
+12:38:27 ERROR : Failed to openhw "C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa"
+Reason: C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+12:38:27 ERROR : Failed to update application flags from BSP for 'TRNG'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+12:38:55 INFO  : Result from executing command 'getProjects': design_1_wrapper
+12:38:55 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+12:38:56 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:39:27 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:39:34 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:39:42 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:40:14 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:40:51 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:41:17 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:42:34 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:43:22 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:43:51 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:44:32 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:44:52 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:45:29 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:45:38 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:45:51 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:46:15 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:46:23 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:46:39 INFO  : Disconnected from the channel tcfchan#6.
+12:46:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:46:41 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:46:41 INFO  : 'jtag frequency' command is executed.
+12:46:43 INFO  : Context for 'APU' is selected.
+12:46:43 INFO  : System reset is completed.
+12:46:46 INFO  : 'after 3000' command is executed.
+12:46:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:46:48 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:46:48 INFO  : Context for 'APU' is selected.
+12:46:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:46:48 INFO  : 'configparams force-mem-access 1' command is executed.
+12:46:48 INFO  : Context for 'APU' is selected.
+12:46:48 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:46:49 INFO  : 'ps7_init' command is executed.
+12:46:49 INFO  : 'ps7_post_config' command is executed.
+12:46:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:46:50 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:46:50 INFO  : 'configparams force-mem-access 0' command is executed.
+12:46:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:46:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:46:50 INFO  : 'con' command is executed.
+12:46:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:46:50 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_5.tcl'
+12:47:08 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+12:47:18 INFO  : Disconnected from the channel tcfchan#9.
+12:47:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:19 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:47:19 INFO  : 'jtag frequency' command is executed.
+12:47:22 INFO  : Context for 'APU' is selected.
+12:47:22 INFO  : System reset is completed.
+12:47:25 INFO  : 'after 3000' command is executed.
+12:47:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:47:27 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:47:27 INFO  : Context for 'APU' is selected.
+12:47:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:47:27 INFO  : 'configparams force-mem-access 1' command is executed.
+12:47:27 INFO  : Context for 'APU' is selected.
+12:47:27 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:47:29 INFO  : 'ps7_init' command is executed.
+12:47:29 INFO  : 'ps7_post_config' command is executed.
+12:47:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:47:29 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:47:29 INFO  : 'configparams force-mem-access 0' command is executed.
+12:47:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:47:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:47:29 INFO  : 'con' command is executed.
+12:47:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:47:29 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_6.tcl'
+12:47:44 INFO  : Disconnected from the channel tcfchan#10.
+12:47:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:45 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:47:45 INFO  : 'jtag frequency' command is executed.
+12:47:45 INFO  : Context for 'APU' is selected.
+12:47:45 INFO  : System reset is completed.
+12:47:48 INFO  : 'after 3000' command is executed.
+12:47:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:47:51 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:47:51 INFO  : Context for 'APU' is selected.
+12:47:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:47:51 INFO  : 'configparams force-mem-access 1' command is executed.
+12:47:51 INFO  : Context for 'APU' is selected.
+12:47:51 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:47:52 INFO  : 'ps7_init' command is executed.
+12:47:52 INFO  : 'ps7_post_config' command is executed.
+12:47:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:47:52 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:47:52 INFO  : 'configparams force-mem-access 0' command is executed.
+12:47:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:47:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:47:53 INFO  : 'con' command is executed.
+12:47:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:47:53 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_7.tcl'
+12:48:51 INFO  : Disconnected from the channel tcfchan#11.
+12:48:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:48:52 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:48:53 INFO  : 'jtag frequency' command is executed.
+12:48:55 INFO  : Context for 'APU' is selected.
+12:48:55 INFO  : System reset is completed.
+12:48:58 INFO  : 'after 3000' command is executed.
+12:48:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:49:00 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:49:00 INFO  : Context for 'APU' is selected.
+12:49:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:49:00 INFO  : 'configparams force-mem-access 1' command is executed.
+12:49:00 INFO  : Context for 'APU' is selected.
+12:49:00 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:49:01 INFO  : 'ps7_init' command is executed.
+12:49:01 INFO  : 'ps7_post_config' command is executed.
+12:49:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:01 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:49:02 INFO  : 'configparams force-mem-access 0' command is executed.
+12:49:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:49:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:02 INFO  : 'con' command is executed.
+12:49:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:49:02 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_8.tcl'
+12:56:00 INFO  : Disconnected from the channel tcfchan#12.
+12:56:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:01 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:56:01 INFO  : 'jtag frequency' command is executed.
+12:56:01 INFO  : Context for 'APU' is selected.
+12:56:02 INFO  : System reset is completed.
+12:56:05 INFO  : 'after 3000' command is executed.
+12:56:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:56:07 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+12:56:07 INFO  : Context for 'APU' is selected.
+12:56:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:56:07 INFO  : 'configparams force-mem-access 1' command is executed.
+12:56:07 INFO  : Context for 'APU' is selected.
+12:56:07 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+12:56:08 INFO  : 'ps7_init' command is executed.
+12:56:08 INFO  : 'ps7_post_config' command is executed.
+12:56:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:09 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:56:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:56:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:56:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:09 INFO  : 'con' command is executed.
+12:56:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:56:09 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_9.tcl'
+13:00:14 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+13:00:30 INFO  : Disconnected from the channel tcfchan#13.
+13:00:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:31 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:00:31 INFO  : 'jtag frequency' command is executed.
+13:00:33 INFO  : Context for 'APU' is selected.
+13:00:34 INFO  : System reset is completed.
+13:00:37 INFO  : 'after 3000' command is executed.
+13:00:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:00:39 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+13:00:39 INFO  : Context for 'APU' is selected.
+13:00:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:00:39 INFO  : 'configparams force-mem-access 1' command is executed.
+13:00:39 INFO  : Context for 'APU' is selected.
+13:00:39 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+13:00:41 INFO  : 'ps7_init' command is executed.
+13:00:41 INFO  : 'ps7_post_config' command is executed.
+13:00:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:41 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:00:41 INFO  : 'configparams force-mem-access 0' command is executed.
+13:00:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:00:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:41 INFO  : 'con' command is executed.
+13:00:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:00:41 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_10.tcl'
+13:02:16 INFO  : Checking for BSP changes to sync application flags for project 'TRNG'...
+13:02:28 INFO  : Disconnected from the channel tcfchan#14.
+13:02:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:30 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:02:30 INFO  : 'jtag frequency' command is executed.
+13:02:30 INFO  : Context for 'APU' is selected.
+13:02:30 INFO  : System reset is completed.
+13:02:33 INFO  : 'after 3000' command is executed.
+13:02:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:02:35 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+13:02:35 INFO  : Context for 'APU' is selected.
+13:02:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:02:35 INFO  : 'configparams force-mem-access 1' command is executed.
+13:02:35 INFO  : Context for 'APU' is selected.
+13:02:35 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+13:02:36 INFO  : 'ps7_init' command is executed.
+13:02:36 INFO  : 'ps7_post_config' command is executed.
+13:02:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:02:37 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:02:37 INFO  : 'configparams force-mem-access 0' command is executed.
+13:02:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:02:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:02:37 INFO  : 'con' command is executed.
+13:02:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:02:37 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_11.tcl'
+13:02:51 INFO  : Disconnected from the channel tcfchan#15.
+13:02:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:53 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:02:53 INFO  : 'jtag frequency' command is executed.
+13:02:54 INFO  : Context for 'APU' is selected.
+13:02:54 INFO  : System reset is completed.
+13:02:57 INFO  : 'after 3000' command is executed.
+13:02:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:02:59 INFO  : Device configured successfully with "C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit"
+13:02:59 INFO  : Context for 'APU' is selected.
+13:02:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:02:59 INFO  : 'configparams force-mem-access 1' command is executed.
+13:02:59 INFO  : Context for 'APU' is selected.
+13:02:59 INFO  : Sourcing of 'C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl' is done.
+13:03:00 INFO  : 'ps7_init' command is executed.
+13:03:00 INFO  : 'ps7_post_config' command is executed.
+13:03:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:03:01 INFO  : The application 'C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:03:01 INFO  : 'configparams force-mem-access 0' command is executed.
+13:03:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Admin/Desktop/hehe/TRNG/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Admin/Desktop/hehe/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Admin/Desktop/hehe/TRNG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Admin/Desktop/hehe/TRNG/Debug/TRNG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:03:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:03:01 INFO  : 'con' command is executed.
+13:03:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:03:01 INFO  : Launch script is exported to file 'C:\Users\Admin\Desktop\hehe\TRNG_system\_ide\scripts\debugger_trng-default_12.tcl'
+13:56:55 INFO  : Disconnected from the channel tcfchan#16.

@@ -1,0 +1,44 @@
+timestamp=[2024-12-25 11:24:57], mode=WORKBENCH_START, duration=0:00:06.570, duration_ms=6570, data={}
+timestamp=[2024-12-25 11:24:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.116, duration_ms=116, data={}
+timestamp=[2024-12-25 11:29:57], mode=WORKBENCH_START, duration=0:00:05.971, duration_ms=5971, data={}
+timestamp=[2024-12-25 11:29:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2024-12-25 11:30:47], mode=WORKBENCH_START, duration=0:00:03.992, duration_ms=3992, data={}
+timestamp=[2024-12-25 11:30:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.411, duration_ms=411, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-12-25 11:30:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.063, duration_ms=63, data={}
+timestamp=[2024-12-25 11:35:05], mode=APP_CREATION, duration=0:00:24.212, duration_ms=24212, data={name=TRNG, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2024-12-25 12:11:42], mode=PLATFORM_GENERATION, duration=0:00:25.649, duration_ms=25649, data={name=design_1_wrapper}
+timestamp=[2024-12-25 12:11:44], mode=BUILD, duration=0:00:01.400, duration_ms=1400, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:18:28], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:22:42], mode=BUILD, duration=0:00:00.689, duration_ms=689, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:24:56], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:25:27], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:25:51], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:27:03], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:27:32], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:27:38], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:27:55], mode=BUILD, duration=0:00:00.626, duration_ms=626, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:28:54], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:29:18], mode=BUILD, duration=0:00:00.625, duration_ms=625, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:38:27], mode=PLATFORM_GENERATION, duration=0:00:03.430, duration_ms=3430, data={name=design_1_wrapper}
+timestamp=[2024-12-25 12:38:27], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:38:56], mode=PLATFORM_GENERATION, duration=0:00:08.946, duration_ms=8946, data={name=design_1_wrapper}
+timestamp=[2024-12-25 12:38:57], mode=BUILD, duration=0:00:00.799, duration_ms=799, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:39:28], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:39:35], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:39:42], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:40:14], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:40:51], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:41:17], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:42:34], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:43:23], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:43:51], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:44:32], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:44:52], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:45:29], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:45:38], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:45:52], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:46:15], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:46:23], mode=BUILD, duration=0:00:00.625, duration_ms=625, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 12:47:08], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 13:00:15], mode=BUILD, duration=0:00:00.672, duration_ms=672, data={name=TRNG, configuration=Debug, clean_build=false}
+timestamp=[2024-12-25 13:02:16], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=TRNG, configuration=Debug, clean_build=false}
