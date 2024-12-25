@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN M20 [get_ports reset_rtl]
+set_property IOSTANDARD LVCMOS33 [get_ports reset_rtl]
+set_property PACKAGE_PIN M14 [get_ports uart_rtl_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_rxd]
+set_property PACKAGE_PIN M15 [get_ports uart_rtl_txd]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rtl_txd]
