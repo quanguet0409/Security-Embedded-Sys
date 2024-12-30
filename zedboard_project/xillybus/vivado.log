@@ -1,0 +1,159 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Dec 25 20:34:21 2024
+# Process ID: 9476
+# Current directory: D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus
+# Command line: vivado.exe -mode batch -source xillydemo-vivado.tcl
+# Log file: D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus/vivado.log
+# Journal file: D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus\vivado.jou
+# Running On: GunDx, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 16487 MB
+#-----------------------------------------------------------
+source xillydemo-vivado.tcl
+# set origin_dir [file dirname [info script]]
+# if {[string first { } $origin_dir] >= 0} {
+# send_msg_id xillydemo-1 error "The path to the the project directory contains white space(s): \"$origin_dir\". This is known to cause problems with Vivado. Please move the project to a path without white spaces, and try again."
+# }
+# set proj_name xillydemo
+# set proj_dir "[file normalize $origin_dir/vivado]"
+# set thepart "xc7z020clg484-1"
+# set essentials_dir "[file normalize "$origin_dir/../vivado-essentials"]"
+# create_project -force $proj_name "$proj_dir/"
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus/vivado'
+# set obj [get_projects $proj_name]
+# set_property "default_lib" "xil_defaultlib" $obj
+# set_property "part" $thepart $obj
+# set_property "simulator_language" "Mixed" $obj
+# set_property "source_mgmt_mode" "DisplayOnly" $obj
+# set_property target_language Verilog $obj
+# set_property "ip_repo_paths" "$essentials_dir/vivado-ip" $obj
+# update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado-ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Study/Tai_lieu/Nhung_bao_mat/xilinx/Vivado/2021.2/data/ip'.
+# if {[string equal [get_filesets sources_1] ""]} {
+#   create_fileset -srcset sources_1
+# }
+# set obj [get_filesets sources_1]
+# set_property "edif_extra_search_paths" "[file normalize "$origin_dir/../cores"]" $obj
+# set_property "top" "xillydemo" $obj
+# set obj [get_filesets sources_1]
+# set files [list \
+#  $origin_dir/src/ \
+#  $origin_dir/src/xillydemo.v \
+#  $origin_dir/src/smbus.v \
+#  $origin_dir/src/i2s_audio.v \
+#  $origin_dir/src/xillybus.v \
+#  $origin_dir/src/xillybus_core.v \
+#  $essentials_dir/system.v \
+#  $essentials_dir/vga_fifo/vga_fifo.xci \
+#  $essentials_dir/fifo_8x2048/fifo_8x2048.xci \
+#  $essentials_dir/fifo_32x512/fifo_32x512.xci \
+#  $essentials_dir/vivado_system/vivado_system.bd \
+# ]
+# add_files -fileset $obj $files
+# upgrade_ip [get_ips]
+WARNING: [Coretcl 2-1042] No IP was identified for upgrade.
+# open_bd_design $essentials_dir/vivado_system/vivado_system.bd
+Reading block design file <D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/vivado_system.bd>...
+Adding component instance block -- xillybus:xillybus:xillybus_lite:1.0 - xillybus_lite_0
+Adding component instance block -- xillybus:xillybus:xillybus_ip:1.0 - xillybus_ip_0
+Adding component instance block -- xillybus:xillybus:xillyvga:1.0 - xillyvga_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - processing_system7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Successfully read diagram <vivado_system> from block design file <D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/vivado_system.bd>
+# startgroup
+# apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins xillybus_ip_0/S_AXI]
+# apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins xillyvga_0/S_AXI]
+# apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins xillybus_lite_0/S_AXI]
+# set_property range 4K [get_bd_addr_segs {processing_system7_0/Data/SEG_xillybus_ip_0_reg0}]
+# set_property range 4K [get_bd_addr_segs {processing_system7_0/Data/SEG_xillyvga_0_reg0}]
+# set_property range 4K [get_bd_addr_segs {processing_system7_0/Data/SEG_xillybus_lite_0_reg0}]
+# set_property offset 0x50000000 [get_bd_addr_segs {processing_system7_0/Data/SEG_xillybus_ip_0_reg0}]
+# set_property offset 0x50001000 [get_bd_addr_segs {processing_system7_0/Data/SEG_xillyvga_0_reg0}]
+# set_property offset 0x50002000 [get_bd_addr_segs {processing_system7_0/Data/SEG_xillybus_lite_0_reg0}]
+# endgroup
+# save_bd_design
+Wrote  : <D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2\zedboard_project\vivado-essentials\vivado_system\vivado_system.bd> 
+# close_bd_design vivado_system
+# if {[string equal [get_filesets constrs_1] ""]} {
+#   create_fileset -constrset constrs_1
+# }
+# set obj [get_filesets constrs_1]
+# add_files -fileset $obj -norecurse $essentials_dir/xillydemo.xdc
+# set obj [get_filesets constrs_1]
+# if {[string equal [get_filesets sim_1] ""]} {
+#   create_fileset -simset sim_1
+# }
+# set obj [get_filesets sim_1]
+# set obj [get_filesets sim_1]
+# set_property "top" "unknown" $obj
+# set_property "xsim.simulate.runtime" "1000 ns" $obj
+# set_property "xsim.simulate.uut" "UUT" $obj
+WARNING: [Common 17-599] Property 'xsim.simulate.uut' is deprecated for object type 'fileset'. Use 'xsim.simulate.saif_scope'.
+# if {[string equal [get_runs synth_1] ""]} {
+#   create_run -name synth_1 -part $thepart -flow {Vivado Synthesis 2013} -strategy "Vivado Synthesis Defaults" -constrset constrs_1
+# }
+# set obj [get_runs synth_1]
+# set_property "part" $thepart $obj
+# if {[string equal [get_runs impl_1] ""]} {
+#   create_run -name impl_1 -part $thepart -flow {Vivado Implementation 2013} -strategy "Vivado Implementation Defaults" -constrset constrs_1 -parent_run synth_1
+# }
+# set obj [get_runs impl_1]
+# set_property "part" $thepart $obj
+# set_property STEPS.ROUTE_DESIGN.TCL.POST "$essentials_dir/showstopper.tcl" $obj
+WARNING: [Runs 36-537] File D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/showstopper.tcl is not part of fileset utils_1, but has specified as a Tcl hook script for run(s) impl_1. This file will not be handled as part of the project for archive and other project based functionality.
+# set_msg_config -new_severity "INFO" -id {BD 41-968} -string {{xillybus_S_AXI} } 
+# set_msg_config -new_severity "INFO" -id {BD 41-967} -string {{xillybus_ip_0/xillybus_M_AXI} } 
+# set_msg_config -new_severity "INFO" -id {BD 41-967} -string {{xillybus_ip_0/xillybus_S_AXI} } 
+# set_msg_config -new_severity "INFO" -id {BD 41-678} -string {{xillybus_S_AXI/Reg} } 
+# set_msg_config -new_severity "INFO" -id {BD 41-1356} -string {{xillybus_S_AXI/Reg} }
+# set_msg_config -new_severity "INFO" -id {BD 41-759} -string {{xlconcat_0/In} }
+# set_msg_config -new_severity "INFO" -id {BD 41-759} -string {{xlconcat_0/In} }
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {BD 41-759}  -string {{xlconcat_0/In}}  -new_severity {INFO} '. The existing rule will be replaced.
+# set_msg_config -new_severity "INFO" -id {Netlist 29-160} -string {{vivado_system_processing_system7} }
+# puts "INFO: Project created: $proj_name"
+INFO: Project created: xillydemo
+# set scripts [glob -nocomplain -type f -directory "src/fpga-design" *.tcl]
+# foreach script $scripts {
+#   puts "Found tcl script $script"
+#   source $script
+# }
+# launch_runs -jobs 8 impl_1 -to_step write_bitstream
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vga_fifo/vga_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/fifo_8x2048/fifo_8x2048.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/fifo_32x512/fifo_32x512.xci' is already up-to-date
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0_axi_periph/M03_AXI'. Please either complete or remove this path to resolve.
+INFO: [BD 41-1356] Slave segment </xillybus_S_AXI/Reg> is not assigned into address space </xillybus_ip_0/xillybus_S_AXI>. Please use Address Editor to either assign or exclude it.
+INFO: [BD 41-968] AXI interface port /xillybus_S_AXI is not associated to any clock port. It may not work correctly. Please update ASSOCIATED_BUSIF parameter of a clock port to include this interface port. If this is a user packaged IP please update the IP in the IP Packager.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -addressables -of_objects /processing_system7_0_axi_periph/xbar/M03_AXI'
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /xillybus_ip_0/m_axi(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_ACP(5) and /xillybus_ip_0/m_axi(0)
+Wrote  : <D:\Study\Tai_lieu\Nhung_bao_mat\Final\Code\Test2\zedboard_project\vivado-essentials\vivado_system\vivado_system.bd> 
+VHDL Output written to : D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/synth/vivado_system.v
+VHDL Output written to : D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/sim/vivado_system.v
+VHDL Output written to : D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/hdl/vivado_system_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+Exporting to file D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/hw_handoff/vivado_system.hwh
+Generated Hardware Definition File D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/vivado-essentials/vivado_system/synth/vivado_system.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin xillybus_M_AXI could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /xillybus_ip_0
+WARNING: [BD 41-2265] Clock pin for protocol instance pin xillybus_S_AXI could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /xillybus_ip_0
+[Wed Dec 25 20:34:45 2024] Launched synth_1...
+Run output will be captured here: D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus/vivado/xillydemo.runs/synth_1/runme.log
+[Wed Dec 25 20:34:45 2024] Launched impl_1...
+Run output will be captured here: D:/Study/Tai_lieu/Nhung_bao_mat/Final/Code/Test2/zedboard_project/xillybus/vivado/xillydemo.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1245.918 ; gain = 0.000
+# wait_on_run impl_1
+[Wed Dec 25 20:34:45 2024] Waiting for impl_1 to finish...
