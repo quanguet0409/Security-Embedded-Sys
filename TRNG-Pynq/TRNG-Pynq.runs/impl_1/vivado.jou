@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Dec 31 21:40:42 2024
+# Process ID: 8968
+# Current directory: C:/Users/quang/Desktop/Pynq/TRNG-Pynq/TRNG-Pynq.runs/impl_1
+# Command line: vivado.exe -log ZynqBlockDesign_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ZynqBlockDesign_wrapper.tcl -notrace
+# Log file: C:/Users/quang/Desktop/Pynq/TRNG-Pynq/TRNG-Pynq.runs/impl_1/ZynqBlockDesign_wrapper.vdi
+# Journal file: C:/Users/quang/Desktop/Pynq/TRNG-Pynq/TRNG-Pynq.runs/impl_1\vivado.jou
+# Running On: Quang, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 17014 MB
+#-----------------------------------------------------------
+source ZynqBlockDesign_wrapper.tcl -notrace

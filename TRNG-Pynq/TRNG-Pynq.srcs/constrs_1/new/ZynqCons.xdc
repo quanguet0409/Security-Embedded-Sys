@@ -1,0 +1,8 @@
+set_property -dict { PACKAGE_PIN U8  IOSTANDARD LVCMOS33 } [get_ports { uart_rtl_rxd }]
+set_property -dict { PACKAGE_PIN W6  IOSTANDARD LVCMOS33 } [get_ports { uart_rtl_txd }]
+set_property -dict { PACKAGE_PIN U10 IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[5] }]
+set_property -dict { PACKAGE_PIN Y11 IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[0] }]
+set_property -dict { PACKAGE_PIN Y12 IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[1] }]
+set_property -dict { PACKAGE_PIN W11 IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[2] }]
+set_property -dict { PACKAGE_PIN V11 IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[3] }]
+set_property -dict { PACKAGE_PIN T5  IOSTANDARD LVCMOS33 } [get_ports { arduino_a0_a5_tri_io[4] }]
